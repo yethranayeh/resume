@@ -1,0 +1,196 @@
+@import "./variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+body {
+	background: rgb(204, 204, 204) !important;
+	width: 21cm;
+	height: 29.7cm;
+	margin: 0 auto;
+}
+
+header {
+	display: flex !important;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding: $spacing !important;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	gap: $spacing-2;
+}
+
+p {
+	line-height: 5.3mm !important;
+}
+
+.header-info {
+	display: flex;
+	flex-direction: column;
+	gap: 1mm;
+}
+
+.header-info li {
+	display: flex;
+	gap: 2mm;
+}
+
+.text-caption {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1;
+	font-size: 0.4cm;
+	color: rgba($color: $primary, $alpha: 0.7);
+}
+
+*,
+.text-regular {
+	color: $primary;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1;
+}
+
+.text-medium {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.text-bold {
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.text-black {
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	font-style: normal;
+}
+
+.name {
+	text-transform: uppercase;
+	font-size: 1.5cm;
+	line-height: 1.2cm;
+	word-spacing: 100cm;
+}
+
+.vocation {
+	display: inline-flex;
+	align-items: center;
+	white-space: nowrap;
+
+	&::before,
+	&::after {
+		content: "";
+		height: 0.2cm;
+		background-color: $primary;
+	}
+
+	&::before {
+		width: 2cm;
+		margin-right: 1mm;
+	}
+
+	&::after {
+		width: 20cm;
+		margin-left: 1mm;
+	}
+}
+
+.lower-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 0.5fr 1.5fr;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas:
+		"education languages"
+		"education references";
+
+	& > div {
+		height: 100%;
+	}
+}
+
+.education {
+	grid-area: education;
+}
+
+.languages {
+	grid-area: languages;
+}
+
+.references {
+	grid-area: references;
+}
+
+.section-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 100%;
+}
+
+.col {
+	display: flex;
+	flex-direction: column;
+}
+
+.section {
+	display: flex;
+	flex-direction: column;
+	border: 2px solid $primary;
+
+	height: 100%;
+}
+
+.section-title_container {
+	width: 100% !important;
+	display: grid;
+	place-items: center;
+
+	padding: 2mm 0;
+	background-color: $primary;
+	width: 0.5cm;
+}
+
+.section-title {
+	color: $secondary;
+}
+
+.section-content {
+	display: flex;
+	flex-direction: column;
+
+	gap: $spacing-4;
+	padding: $spacing !important;
+}
+
+// A4
+page {
+	background: white;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 0.5cm;
+	position: relative;
+
+	overflow: hidden;
+}
+
+// FIXME: each "page" content should adhere to A4 sheet size
+
+// page[size="A4"] {
+// 	width: 21cm;
+// 	height: 29.7cm;
+// }
+
+// @page {
+// 	size: 21cm 29.7cm;
+// 	margin: 0;
+// }

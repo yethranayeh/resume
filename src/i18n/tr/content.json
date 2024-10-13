@@ -1,0 +1,161 @@
+{
+	"404": {
+		"descripton": "'{{path}}' dizininde erişmeye çalıştığınız içerik bulunamadı.",
+		"title": "404 - İçerik Bulunamadı!"
+	},
+	"base-url": "C:\\Kullanıcılar\\alperaktas",
+	"clippy": {
+		"greeting": "Merhaba, ben Clippy!"
+	},
+	"daily-space-palette": "Daily Space Palette, NASA'nın API içeriğini kullanarak Günün Astronomi Fotoğrafı'nı gösteriyor. Ek olarak, gelen bu fotoğraftaki renkleri analiz ederek çeşitli renk paletleri oluşturuyor.",
+	"error": {
+		"fallback-element": "Aman! Sanırım web sayfamı bozdun! Hatayı gidermem için yardımcı olmak istersen, tarayıcı konsolundaki hata  mesajını kontrol edip göndermeni önemle rica ediyorum :)"
+	},
+	"introduction": {
+		"menu": {
+			"resume": "Özgeçmiş"
+		},
+		"about-current-job": "Şu anda, Etstur'da Yazılım Geliştirme Uzman Yardımcısı olarak çalışıyorum. Şirketin React bazlı B2B web uygulamarının geliştirilmesinde rol alıyorum.",
+		"about-experience": "Yazılım geliştirmeye oldukça ilgi duyduğum için, hedeflediğim kariyere öğrencilik dönemimde online içerikler tüketerek ile ve HackerRank vb. sitelerde testler çözerek yatırım yaptım.",
+		"about-me": "Ege Üniversitesi, İngiliz Dili ve Edebiyatı mezunuyum.",
+		"about-preferences": "Genel olarak web uygulamalarını TypeScript ve React.js ile geliştirmeyi tercih ediyorum. Yaptığım geliştirmeleri Vitest ve react-testing-library ile, bazen de Playwright ile test ediyorum."
+	},
+	"login-screen": {
+		"footer-info": "Giriş yaptıktan sonra kullanıcı hesabı ekleyebilir veyak kullanıcıyı değiştirebilirsiniz.",
+		"instructions": "Başlamak için lütfen şifrenizi giriniz",
+		"turn-off": "Bilgisayarı kapat"
+	},
+	"vigenere-cipher": {
+		"alphabet": "Alfabe",
+		"alphabet-disabled-tooltip": "Alfabe şimdilik Latin harfleriyle sınırlandırılmıştır",
+		"decrypt": "Şifre Çöz",
+		"encrypt": "Şifrele",
+		"input": "Girdi",
+		"key": "Anahtar",
+		"key-descripton": "'{{method}}' yöntemi için kullanacağınız anahtar",
+		"method": "Yöntem",
+		"output": "Çıktı",
+		"title": "Vigenère Şifrelemesi"
+	},
+	"resume": {
+		"header": {
+			"name": "Alper Aktaş",
+			"title": "Yazılım Geliştirici",
+			"phone": "+90 534 621 81 05",
+			"mail": "contact@aktasalper.com",
+			"linkedIn": "https://www.linkedin.com/in/aktasalper/",
+			"portfolio": "https://www.aktasalper.com/",
+			"location": "Avcılar, İstanbul"
+		},
+
+		"experience": {
+			"title": "Tecrübe",
+			"list": [
+				{
+					"company": "Etstur",
+					"title": "Yazılım Geliştirme Uzman Yardımcısı",
+					"period": { "start": "Temmuz 25, 2022" },
+					"description": "Şirketin React bazlı B2B web uygulamarının geliştirilmesinde rol alıyorum. Şirket içinde, geliştirme yaptığım projeler hakkında bilgi aktarımı sağlayabilmek adına Confluence Wiki platformunda dokümantasyon yazdım. 'DevOps Heroes' olarak adlandırılan şirket içindeki takımda, Front-end temsilcisi olarak bulunuyorum.",
+					"roles": [
+						{
+							"project": "UI Kit",
+							"description": "Şirket bünyesinde bulunan tüm modern projelerde kullanılması amaçlanan, UI/UX ekibi tarafından standartlaştırılmış UI Kit tasarımlarının koda aktarılarak React bileşenlerine dönüştürülmesi ve bu bileşenleri topluca bir ürün haline getirerek kütüphane şeklinde şirket içinde dağıtılmasında öncü rol oynadım. Projede React bazlı komponent kütüphanesine ek olarak, bir de CLI tool bulunuyor. Bu da, şirket içi projelere entegrasyonun kolaylaştırılmasını sağlıyor. UI Kit projesini bir monorepo olarak kurguladım ve yarn 'workspaces' altında CLI ve UI Kit kütüphanelerini birbirine bağlayarak geliştirme sürecini kolaylaştırılmasını sağladım.",
+							"stack": ["Storybook", "React", "MUI", "ink", "inquirer", "meow"]
+						},
+						{
+							"project": "E-mail Template",
+							"description": "En başta 'Etspartners' olmak üzere, Etstur tarafından kullanıcılara gönderilen e-postaların standartlaştırılması adına bu projeyi oluşturdum ve mevcut e-posta sürecine entegre ettim. Bu proje dahilinde yazmış olduğum CLI script ile e-posta dosyalarında yapılan değişikliklerin hızlıca ve otomatik bir şekilde Mandrill'e deploy edilmesini sağladım. Başlangıçta 'mjml-react' ile geliştirdiğim projeyi, bakım maliyetini azaltmak ve kullanılabilirliği artırmak için 'react-email' bazlı çalışacak şekilde güncelledim.",
+							"stack": ["Mandrill", "mjml-react", "react-email", "node.js"]
+						},
+						{
+							"project": "Extranet & Intranet",
+							"description": "Modernleştirme sürecinde, halihazırda müşteriler tarafından kullanılan eski projelerin bakım süreçlerinde de zaman zaman yer aldım.",
+							"stack": ["JavaScript", "FTL", "JSTL", "JSP", "Java"]
+						},
+						{
+							"project": "Dijital Kontrat",
+							"description": "Etstur kontrat ekibinin, otellerle imzalanan kontratların dijitalleştirilmesi ve kontrat süreçlerinin takibi için talep ettiği proje. Projenin başlangıcından canlıya çıktığı süreç boyunca tek front-end geliştirici olarak 'Dijital Kontrat'ın sorumluluğunu üstlendim. Böylece, Estur bünyesinde canlıya alınan ilk React projesinin geliştirilmesinde rol aldım. Nisan 2023'ten itibaren, tüm tatil köyü otellerinin kontrat detayları ve belgeleri Dijital Kontrat üzerinden yönetilmeye başlandı. Yedi farklı iş birimi ile birlikte çalışan bu projede süreç, kontrat bilgi ve belgeleri ilgili kişilere atanan görev akışı ile yönetilir. Proje, Etstur Aylık Teknoloji Bülteni'nde 'Ayın Ürünü' olarak lanse edildi. Proje canlıya alındıktan sonra ise, yerime devralan front-end ekibine aktarım ve bakım konusunda destek oldum.",
+							"stack": ["TypeScript", "React", "RTK", "Vite", "Vitest", "CASL"]
+						},
+						{
+							"project": "B2B Boilerplate",
+							"description": "B2B React projelerinin hızlıca ayağa kaldırılabilmesi adına oluşturduğum boilerplate projesi. Bu 'Etspartners' temellerini attıktan sonra, diğer B2B projelerimizde de ihtiyacımız olabilecek teknolojileri, kod standartlarını ve proje yapısını derleyip boilerplate üzerinde tekrar kullanılabilir hale getirdim.",
+							"stack": ["TypeScript", "React", "RTK", "Vite", "CASL"]
+						},
+						{
+							"project": "etspartners.com",
+							"description": "Etstur'un, birlikte çalıştığı otellere sunduğu B2B dashboard uygulamasının React ve Java Spring Boot kullanılarak tekrardan yazılmış modern hali. Projenin ön yüz iskeletinin oluşturulmasında rol aldım ve 'Dijital Kontrat' projesinde geçirdiğim zaman haricinde tüm geliştirme, bakım ve onarım süreçlerinde yer aldım.",
+							"stack": ["TypeScript", "React", "RTK", "Vite", "Vitest", "CASL"]
+						}
+					]
+				},
+				{
+					"company": "1Pixel Digital Agency",
+					"title": "Front-end Stajyerliği",
+					"period": { "start": "Ekim 2021", "end": "Kasım 2021" },
+					"description": "Jira üzerinden yönetilen Agile süreçte, sayfaların ilgili grafik tasarımlarına karşılık gelen işlevsel ve responsive bölümlerinin kodlanması.",
+					"roles": [
+						{
+							"project": "Shopify",
+							"description": "Shopify kullanan satıcılara, özelleştirilebilir temaların oluşturulması ve kullanımı kolay CMS kontrollerinin eklenmesi. Bu kontrolleri temalara entegre etmenin yanı sıra, Liquid templating dilini kullanarak dinamik mağaza verilerin sayfa öğelerine akışının sağlanması.",
+							"stack": ["HTML", "CSS", "Liquid"]
+						}
+					]
+				}
+			]
+		},
+		"education": {
+			"title": "Eğitim",
+			"list": [
+				{
+					"institution": "Academy Peak",
+					"instructor": "Ömer Çıtak",
+					"field": "Secure Software Development",
+					"period": "16-18 March, 2023"
+				},
+				{
+					"institution": "Ege University",
+					"field": "English Language and Literature",
+					"period": "2017 - 2022"
+				},
+				{
+					"institution": "Küçükçekmece High School",
+					"field": "Foreign Language Class",
+					"period": "2015 - 2017"
+				},
+				{
+					"institution": "Ege University",
+					"field": "English Language and Literature",
+					"period": "2013 - 2015"
+				}
+			]
+		},
+		"language": {
+			"title": "Diller",
+			"list": [
+				{ "name": "Türkçe", "fluency": "Ana Dil" },
+				{ "name": "İngilizce", "fluency": "Aptis C1" }
+			]
+		},
+		"reference": {
+			"title": "Referanslar",
+			"list": [
+				{
+					"name": "Alper Derya",
+					"title": "Yazılım Geliştirme Yönetmeni",
+					"phone": "+90 533 210 80 28",
+					"email": "alper.derya@gmail.com",
+					"company": "Etstur"
+				},
+				{
+					"name": "Uğur Yılmaz",
+					"title": "Front-end Takım Lideri",
+					"phone": "+90 545 551 19 93",
+					"email": "ugrr.yilmaz@gmail.com",
+					"company": "Etstur"
+				}
+			]
+		},
+		"certificates": []
+	}
+}

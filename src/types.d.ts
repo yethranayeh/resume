@@ -1,7 +1,2 @@
-declare global {
-	namespace JSX {
-		interface IntrinsicElements {
-			page: import("react").PropsWithChildren<{ size: "A4" }>;
-		}
-	}
-}
+const json = import("./i18n/en/content.json");
+type ResumeJSON = Awaited<typeof json>["resume"];

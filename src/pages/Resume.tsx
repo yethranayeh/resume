@@ -7,6 +7,14 @@ import { Reference } from "../components/Reference";
 import contentTR from "../i18n/tr/content.json";
 import contentEN from "../i18n/en/content.json";
 
+declare global {
+	namespace React.JSX {
+		interface IntrinsicElements {
+			page: import("react").PropsWithChildren<{ size: "A4" }>;
+		}
+	}
+}
+
 export function Resume({ lang }: { lang: "tr" | "en" }) {
 	const resume = (lang === "en" ? contentEN : contentTR).resume;
 

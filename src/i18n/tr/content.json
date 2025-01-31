@@ -42,7 +42,7 @@
 			"name": "Alper Aktaş",
 			"title": "Yazılım Geliştirici",
 			"phone": "+90 534 621 81 05",
-			"mail": "contact@aktasalper.com",
+			"mail": "aktasalper99@gmail.com",
 			"linkedIn": "https://www.linkedin.com/in/aktasalper/",
 			"portfolio": "https://www.aktasalper.com/",
 			"location": "Avcılar, İstanbul"
@@ -55,36 +55,36 @@
 					"company": "Etstur",
 					"title": "Yazılım Geliştirme Uzman Yardımcısı",
 					"period": { "start": "Temmuz 25, 2022" },
-					"description": "Şirketin React bazlı B2B web uygulamarının geliştirilmesinde rol alıyorum. Şirket içinde, geliştirme yaptığım projeler hakkında bilgi aktarımı sağlayabilmek adına Confluence Wiki platformunda dokümantasyon yazdım. 'DevOps Heroes' olarak adlandırılan şirket içindeki takımda, Front-end temsilcisi olarak bulunuyorum.",
+					"description": "Şirketin React bazlı B2B web uygulamalarının geliştirilmesinde rol alıyorum. Şu anda şirketimizin UI Kit projesinin yazılım geliştirme sürecini yönetiyorum. Çalışma ortamı, UI/UX ekibinin Figma tasarımları ve ürün sahipleri tarafından yönetilen bir Jira Sprint'i etrafında dönüyor. Bu çevik çalışma ortamında pek çok projeye katılım sağlayarak Etstur'un frontend modernizasyon çalışmalarına büyük katkılarda bulundum. Ayrıca, yer aldığım projelerle ilgili bilgi aktarımını sağlamak adına Confluence Wiki platformunda dokümanlar yazdım. Şirket içindeki 'DevOps Heroes' ekibinin frontend temsilcisi olarak, haftalık toplantılara düzenli olarak katılıyor ve DevOps süreçleriyle ilgili güncel bilgilere ulaşıyorum.",
 					"roles": [
 						{
 							"project": "UI Kit",
-							"description": "Şirket bünyesinde bulunan tüm modern projelerde kullanılması amaçlanan, UI/UX ekibi tarafından standartlaştırılmış UI Kit tasarımlarının koda aktarılarak React bileşenlerine dönüştürülmesi ve bu bileşenleri topluca bir ürün haline getirerek kütüphane şeklinde şirket içinde dağıtılmasında öncü rol oynadım. Projede React bazlı komponent kütüphanesine ek olarak, bir de CLI tool bulunuyor. Bu da, şirket içi projelere entegrasyonun kolaylaştırılmasını sağlıyor. UI Kit projesini bir monorepo olarak kurguladım ve yarn 'workspaces' altında CLI ve UI Kit kütüphanelerini birbirine bağlayarak geliştirme sürecini kolaylaştırılmasını sağladım.",
+							"description": "UI/UX ekibi tarafından Figma'da tasarlanan ve şirket içindeki tüm modern projelerde kullanılması amaçlanan standartlaştırılmış UI Kit tasarımlarını, React bileşenlerine dönüştüren geliştirici olarak öncü rol oynuyorum. React tabanlı bu bileşen kütüphanesine ek olarak, iç projelere entegrasyonu kolaylaştıran bir CLI aracı da geliştirdim. UI Kit projesini bir monorepo olarak tasarlayarak, yarn 'workspaces' özelliğini kullanarak CLI ve UI Kit kütüphanelerini birbirine bağladım ve geliştirme sürecini basitleştirdim.",
 							"stack": ["Storybook", "React", "MUI", "ink", "inquirer", "meow"]
 						},
 						{
 							"project": "E-mail Template",
-							"description": "En başta 'Etspartners' olmak üzere, Etstur tarafından kullanıcılara gönderilen e-postaların standartlaştırılması adına bu projeyi oluşturdum ve mevcut e-posta sürecine entegre ettim. Bu proje dahilinde yazmış olduğum CLI script ile e-posta dosyalarında yapılan değişikliklerin hızlıca ve otomatik bir şekilde Mandrill'e deploy edilmesini sağladım. Başlangıçta 'mjml-react' ile geliştirdiğim projeyi, bakım maliyetini azaltmak ve kullanılabilirliği artırmak için 'react-email' bazlı çalışacak şekilde güncelledim.",
+							"description": "Etstur tarafından kullanıcılara gönderilen e-postaları standart hale getirmek için bu projeyi oluşturdum ve mevcut e-posta sürecine entegre ettim. Yazdığım CLI betiği sayesinde, e-posta değişiklikleri hızlı ve otomatik olarak Mandrill'e deploy edilebiliyor. Proje başlangıçta 'mjml-react' ile geliştirildi, ancak bakım maliyetini düşürmek ve kullanılabilirliği arttırmak için daha sonra 'react-email' ile güncellendi.",
 							"stack": ["Mandrill", "mjml-react", "react-email", "node.js"]
 						},
 						{
 							"project": "Extranet & Intranet",
-							"description": "Modernleştirme sürecinde, halihazırda müşteriler tarafından kullanılan eski projelerin bakım süreçlerinde de zaman zaman yer aldım.",
+							"description": "Modernizasyon sürecinin bir parçası olarak, mevcutta müşteriler tarafından aktif olarak kullanılan eski projelerin bakım süreçlerinde zaman zaman yer aldım.",
 							"stack": ["JavaScript", "FTL", "JSTL", "JSP", "Java"]
 						},
 						{
 							"project": "Dijital Kontrat",
-							"description": "Etstur kontrat ekibinin, otellerle imzalanan kontratların dijitalleştirilmesi ve kontrat süreçlerinin takibi için talep ettiği proje. Projenin başlangıcından canlıya çıktığı süreç boyunca tek front-end geliştirici olarak 'Dijital Kontrat'ın sorumluluğunu üstlendim. Böylece, Estur bünyesinde canlıya alınan ilk React projesinin geliştirilmesinde rol aldım. Nisan 2023'ten itibaren, tüm tatil köyü otellerinin kontrat detayları ve belgeleri Dijital Kontrat üzerinden yönetilmeye başlandı. Yedi farklı iş birimi ile birlikte çalışan bu projede süreç, kontrat bilgi ve belgeleri ilgili kişilere atanan görev akışı ile yönetilir. Proje, Etstur Aylık Teknoloji Bülteni'nde 'Ayın Ürünü' olarak lanse edildi. Proje canlıya alındıktan sonra ise, yerime devralan front-end ekibine aktarım ve bakım konusunda destek oldum.",
+							"description": "Etstur kontrat ekibinin, otel kontratlarını dijitalleştirmek ve süreçleri takip etmek amacıyla talep ettiği proje. Projenin başlangıcından itibaren tek frontend geliştirici olarak sorumluluğunu üstlendim ve projeyi baştan sona geliştirerek canlıya aldım. Nisan 2023 itibariyle tüm tatil köyü otelleri kontrat detaylarını ve belgelerini Dijital Kontrat sistemi üzerinden yönetmeye başladı. Proje, Etstur Aylık Teknoloji Bülteni'nde 'Ayın Ürünü' olarak tanıtıldı. Proje canlıya alındıktan sonra yeni frontend ekibine aktarım ve bakım konusunda destek verdim.",
 							"stack": ["TypeScript", "React", "RTK", "Vite", "Vitest", "CASL"]
 						},
 						{
 							"project": "B2B Boilerplate",
-							"description": "B2B React projelerinin hızlıca ayağa kaldırılabilmesi adına oluşturduğum boilerplate projesi. Bu 'Etspartners' temellerini attıktan sonra, diğer B2B projelerimizde de ihtiyacımız olabilecek teknolojileri, kod standartlarını ve proje yapısını derleyip boilerplate üzerinde tekrar kullanılabilir hale getirdim.",
+							"description": "B2B React projelerinin hızlıca kurulabilmesi için oluşturduğum bir boilerplate projesi. Etspartners projesinin temellerini attıktan sonra, gelecekteki diğer B2B projelerinde kullanılacak teknoloji, kod standartları ve proje yapısını derleyerek tekrar kullanılabilir hale getirdim.",
 							"stack": ["TypeScript", "React", "RTK", "Vite", "CASL"]
 						},
 						{
 							"project": "etspartners.com",
-							"description": "Etstur'un, birlikte çalıştığı otellere sunduğu B2B dashboard uygulamasının React ve Java Spring Boot kullanılarak tekrardan yazılmış modern hali. Projenin ön yüz iskeletinin oluşturulmasında rol aldım ve 'Dijital Kontrat' projesinde geçirdiğim zaman haricinde tüm geliştirme, bakım ve onarım süreçlerinde yer aldım.",
+							"description": "Etstur'un iş ortakları için geliştirdiği B2B dashboard uygulamasının modernleştirilmiş versiyonu. React ve Java Spring Boot kullanılarak yeniden yazıldı. Projenin frontend iskeletinin oluşturulmasında rol aldım ve 'Dijital Kontrat' projesinde çalıştığım süre hariç, tüm geliştirme, bakım ve onarım süreçlerinde yer aldım.",
 							"stack": ["TypeScript", "React", "RTK", "Vite", "Vitest", "CASL"]
 						}
 					]
@@ -102,7 +102,8 @@
 						}
 					]
 				}
-			]
+			],
+			"present": "Devam Ediyor"
 		},
 		"education": {
 			"title": "Eğitim",
@@ -110,23 +111,18 @@
 				{
 					"institution": "Academy Peak",
 					"instructor": "Ömer Çıtak",
-					"field": "Secure Software Development",
-					"period": "16-18 March, 2023"
+					"field": "Güvenli Yazılım Geliştirme",
+					"period": "16-18 Mart, 2023"
 				},
 				{
-					"institution": "Ege University",
-					"field": "English Language and Literature",
+					"institution": "Ege Üniversitesi",
+					"field": "İngiliz Dili ve Edebiyatı",
 					"period": "2017 - 2022"
 				},
 				{
-					"institution": "Küçükçekmece High School",
-					"field": "Foreign Language Class",
+					"institution": "Küçükçekmece Anadolu Lisesi",
+					"field": "Dil Sınıfı",
 					"period": "2015 - 2017"
-				},
-				{
-					"institution": "Ege University",
-					"field": "English Language and Literature",
-					"period": "2013 - 2015"
 				}
 			]
 		},

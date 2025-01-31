@@ -10,8 +10,8 @@ export const ResumeHeader = () => (
 				</li>
 				<li>
 					<i className='fa fa-envelope'></i>
-					<a href='mailto:contact@aktasalper.com' translate={false}>
-						contact@aktasalper.com
+					<a href='mailto:aktasalper99@gmail.com' translate={false}>
+						aktasalper99@gmail.com
 					</a>
 				</li>
 				<li>

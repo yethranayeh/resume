@@ -1,0 +1,19 @@
+// I hate myself for doing this, but it turns out making A4 Print compatible HTML pages is really, really hard...
+
+.exp-1 {
+	&::after {
+		content: "";
+
+		position: absolute;
+		bottom: 0;
+		left: 2px;
+		right: 2px;
+		min-height: var(--cutoff);
+		background-color: #fff;
+	}
+}
+
+.exp-2 {
+	position: relative;
+	top: var(--cutoff);
+}

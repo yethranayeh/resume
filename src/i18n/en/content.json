@@ -42,7 +42,7 @@
 			"name": "Alper Aktaş",
 			"title": "Software Developer",
 			"phone": "+90 534 621 81 05",
-			"mail": "contact@aktasalper.com",
+			"mail": "aktasalper99@gmail.com",
 			"linkedIn": "https://www.linkedin.com/in/aktasalper/",
 			"portfolio": "https://www.aktasalper.com/",
 			"location": "Avcılar, Istanbul"
@@ -54,11 +54,11 @@
 					"company": "Etstur",
 					"title": "Software Development Assistant",
 					"period": { "start": "July 25, 2022" },
-					"description": "I work in the development of the company's React-based B2B web applications. The work environment consists of Figma designs by the UI/UX team and a Jira Sprint managed by product owners. Within this agile workflow, I participated in many projects and contributed heavily to Etstur's frontend modernization efforts. I also wrote documentation articles on our Confluence Wiki platform to share information about the projects I participated in. I am also a front-end representative in the in-house team called 'DevOps Heroes' and I regularly attend weekly meetings to keep up to date with DevOps processes.",
+					"description": "I work in the development of the company's React-based B2B web applications. I am currently leading the software development efforts of our company's UI Kit project. The work environment consists of Figma designs by the UI/UX team and a Jira Sprint managed by product owners. Within this agile workflow, I participated in many projects and contributed heavily to Etstur's frontend modernization efforts. I also wrote documentation articles on our Confluence Wiki platform to share information about the projects I participated in. I am also a front-end representative in the in-house team called 'DevOps Heroes' and I regularly attend weekly meetings to keep up to date with DevOps processes.",
 					"roles": [
 						{
 							"project": "UI Kit",
-							"description": "I played a leading role in converting standardized UI Kit designs on Figma from the UI/UX team into React components for use in all modern projects within the company. In addition to the React-based component library, the project includes a CLI tool that facilitates integration into internal projects. I structured the UI Kit project as a monorepo and simplified the development process by linking the CLI and UI Kit libraries under yarn 'workspaces.'",
+							"description": "I am the leading developer in converting standardized UI Kit designs on Figma from the UI/UX team into React components for use in all modern projects within the company. In addition to the React-based component library, I wrote a CLI tool that facilitates integration into internal projects. I structured the UI Kit project as a monorepo and simplified the development process by linking the CLI and UI Kit libraries by utilizing yarn's 'workspaces' feature.",
 							"stack": ["Storybook", "React", "MUI", "ink", "inquirer", "meow"]
 						},
 						{
@@ -101,7 +101,8 @@
 						}
 					]
 				}
-			]
+			],
+			"present": "Present"
 		},
 		"education": {
 			"title": "Education",
@@ -120,12 +121,7 @@
 				{
 					"institution": "Küçükçekmece High School",
 					"field": "Foreign Language Class",
-					"period": "2015 - 2017"
-				},
-				{
-					"institution": "Ege University",
-					"field": "English Language and Literature",
-					"period": "2013 - 2015"
+					"period": "2013 - 2017"
 				}
 			]
 		},

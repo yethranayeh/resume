@@ -1,5 +1,5 @@
 import { Outlet, createHashRouter } from "react-router-dom";
-import { Resume } from "./Resume";
+import { Resume } from "./Resume/Resume";
 
 const router = createHashRouter([
 	{

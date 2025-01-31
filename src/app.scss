@@ -29,7 +29,7 @@ p {
 .header-info {
 	display: flex;
 	flex-direction: column;
-	gap: 1mm;
+	gap: 2mm;
 }
 
 .header-info li {
@@ -147,7 +147,7 @@ p {
 	flex-direction: column;
 	border: 2px solid $primary;
 
-	height: 100%;
+	// height: 100%;
 }
 
 .section-title_container {
@@ -185,12 +185,12 @@ page {
 
 // FIXME: each "page" content should adhere to A4 sheet size
 
-// page[size="A4"] {
-// 	width: 21cm;
-// 	height: 29.7cm;
-// }
+page[size="A4"] {
+	width: 21cm;
+	height: 29.7cm;
+}
 
-// @page {
-// 	size: 21cm 29.7cm;
-// 	margin: 0;
-// }
+@page {
+	size: 21cm 29.7cm;
+	margin: 0;
+}

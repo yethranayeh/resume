@@ -1,19 +1,45 @@
-import { ResumeExperience } from "../../../components/Experience";
-import { ResumeSection } from "../../../components/Section";
-import { getResumeContent } from "../utils";
+import { useTranslation } from "react-i18next";
 
-export function ExperienceContent({ lang }: { lang: LangOption }) {
-	const resume = getResumeContent(lang);
+import { Experience } from "../../../components/Experience/Experience";
+import { ResumeSection } from "../../../components/Section";
+import { Project } from "../../../components/Experience/Project";
+import { Tech } from "../../../components/Tech";
+
+const companies = [
+	{
+		name: "ets",
+		projects: [
+			{ role: "1", tech: ["Storybook", "React", "MUI", "ink", "inquirer", "meow"] },
+			{ role: "2", tech: ["Mandrill", "mjml-react", "react-email", "node.js"] },
+			{ role: "3", tech: ["JavaScript", "FTL", "JSTL", "JSP", "Java"] },
+			{ role: "4", tech: ["TypeScript", "React", "RTK", "Vite", "Vitest", "CASL"] },
+			{ role: "5", tech: ["TypeScript", "React", "RTK", "Vite", "CASL"] },
+			{ role: "6", tech: ["TypeScript", "React", "RTK", "Vite", "Vitest", "CASL"] }
+		]
+	},
+	{ name: "1pixel", projects: [{ role: "1", tech: ["HTML", "CSS", "Liquid", "Shopify Templates"] }] }
+] as const;
+
+export function ExperienceContent() {
+	const { t } = useTranslation(undefined, { keyPrefix: "experience" });
 
 	return (
-		<ResumeSection title={resume.experience.title}>
-			{resume.experience.list.map((experience) => (
-				<ResumeExperience
-					key={experience.company}
-					{...experience}
-					// FIXME: terrible way to implement this. switch to i18next
-					period={{ ...experience.period, end: experience.period.end ?? resume.experience.present }}
-				/>
+		<ResumeSection title={t("title")}>
+			{companies.map(({ name, projects }) => (
+				<Experience key={name} company={name}>
+					{projects.map((project) => (
+						<Project
+							key={project.role}
+							// @ts-expect-error
+							title={t(`companies.${name}.role.${project.role}.project`)}
+							// @ts-expect-error
+							description={t(`companies.${name}.role.${project.role}.description`)}>
+							{project.tech.map((t) => (
+								<Tech key={t}>{t}</Tech>
+							))}
+						</Project>
+					))}
+				</Experience>
 			))}
 		</ResumeSection>
 	);

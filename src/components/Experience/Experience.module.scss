@@ -1,0 +1,43 @@
+@import "../../variables.scss";
+
+.container {
+	display: flex;
+	flex-direction: row;
+	gap: $spacing-2;
+}
+
+.companyInfoContainer {
+	display: flex;
+	flex-direction: column;
+	gap: $spacing;
+
+	min-width: 4cm;
+	max-width: 4cm;
+}
+
+.company {
+	font-weight: 900;
+	font-size: 1.4rem;
+}
+
+.periodContainer {
+	display: flex;
+	flex-direction: column;
+}
+
+.experienceInfoContainer {
+	display: flex;
+	flex-direction: column;
+	gap: $spacing-3;
+}
+
+.experience {
+	font-weight: 700;
+	font-size: 1.2rem;
+}
+
+.experienceSummary {
+	display: flex;
+	flex-direction: column;
+	gap: $spacing;
+}

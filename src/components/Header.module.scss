@@ -1,0 +1,27 @@
+@import "../variables.scss";
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding: $spacing-2;
+}
+
+.name {
+	text-transform: uppercase;
+	font-size: 1.5cm;
+	line-height: 1.2cm;
+	word-spacing: 100cm;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	gap: 2mm;
+
+	& li {
+		display: flex;
+		gap: 2mm;
+	}
+}

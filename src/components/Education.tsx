@@ -1,6 +1,13 @@
 import styles from "./Education.module.scss";
 
-export function Education(props: ResumeJSON["education"]["list"][number]) {
+interface Props {
+	institution: string;
+	field: string;
+	instructor?: string;
+	period: string;
+}
+
+export function Education(props: Props) {
 	return (
 		<div className={styles.container}>
 			<p className='text-bold'>{props.institution}</p>

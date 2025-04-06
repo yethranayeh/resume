@@ -1,0 +1,103 @@
+{
+	"header": {
+		"name": "Alper Halil",
+		"title": "Software Developer",
+		"phone": "+90 534 621 81 05",
+		"mail": "aktasalper99@gmail.com",
+		"linkedIn": "https://www.linkedin.com/in/aktasalper/",
+		"portfolio": "https://www.aktasalper.com/",
+		"location": "Schongau, Bavaria"
+	},
+	"experience": {
+		"title": "Experience",
+		"summary": "3+ years of experience building React-based web applications. Proven track record in leading UI/UX modernization efforts, designing reusable component libraries, and automating frontend workflows. Skilled in TypeScript, React, Redux Toolkit (RTK), and building responsive, user-friendly interfaces with libraries like MUI and documenting with Storybook.",
+		"present": "Present",
+		"companies": {
+			"ets": {
+				"company": "Etstur",
+				"title": "Software Development Assistant",
+				"period": { "start": "July 25, 2022" },
+				"description": "I work in the development of the company's React-based B2B web applications. I am currently leading the software development efforts of our company's UI Kit project. The work environment consists of Figma designs by the UI/UX team and a Jira Sprint managed by product owners. Within this agile workflow, I participated in many projects and contributed heavily to Etstur's frontend modernization efforts. I also wrote documentation articles on our Confluence Wiki platform to share information about the projects I participated in. I am also a front-end representative in the in-house team called 'DevOps Heroes' and I regularly attend weekly meetings to keep up to date with DevOps processes.",
+				"role": {
+					"1": {
+						"project": "UI Kit",
+						"description": "I am the leading developer in converting standardized UI Kit designs on Figma from the UI/UX team into React components for use in all modern projects within the company. In addition to the React-based component library, I wrote a CLI tool that facilitates integration into internal projects. I structured the UI Kit project as a monorepo and simplified the development process by linking the CLI and UI Kit libraries by utilizing yarn's 'workspaces' feature."
+					},
+					"2": {
+						"project": "E-mail Template",
+						"description": "I created this project to standardize emails sent to users by Etstur, starting with 'Etspartners,' and integrated it into the current email process. With the CLI script I wrote, email changes are quickly and automatically deployed to Mandrill. Initially developed with 'mjml-react,' I later updated the project to use 'react-email' to reduce maintenance costs and increase usability."
+					},
+					"3": {
+						"project": "Extranet & Intranet",
+						"description": "I occasionally participated in the maintenance of older projects that customers actively use as part of the modernization process."
+					},
+					"4": {
+						"project": "Digital Contract",
+						"description": "This project was requested by Etstur's contract team to digitize hotel contracts and track contract processes. I took responsibility for the 'Digital Contract' project as the sole front-end developer from the beginning to live deployment. From April 2023, all resort hotels began managing contract details and documents through the Digital Contract. The project was featured as 'Product of the Month' in Etstur's Monthly Technology Bulletin. After the project went live, I supported the handover and maintenance to the new front-end team."
+					},
+					"5": {
+						"project": "B2B Boilerplate",
+						"description": "I created a boilerplate project to quickly set up B2B React projects. After laying the foundation with 'Etspartners,' I compiled the technologies, code standards, and project structure we might need for other B2B projects and made them reusable in the boilerplate."
+					},
+					"6": {
+						"project": "etspartners.com",
+						"description": "The modernized version of Etstur's B2B dashboard application for our partnered hotels. Rewritten using React and Java Spring Boot. I played a role in setting up the front-end skeleton and was involved in all development, maintenance, and repair processes, except for the time spent on the 'Digital Contract' project."
+					}
+				}
+			},
+			"1pixel": {
+				"company": "1Pixel Digital Agency",
+				"title": "Front-End Development Intern",
+				"period": { "start": "October 2021", "end": "November 2021" },
+				"description": "Through agile processes managed by Jira Sprints, I coded functional and responsive sections of pages corresponding to the related graphic designs.",
+				"role": {
+					"1": {
+						"project": "Shopify Templates",
+						"description": "For sellers using Shopify, I created customizable themes and added user-friendly CMS controls. In addition to integrating these controls into themes, I ensured the flow of dynamic store data to page elements using the Liquid templating language."
+					}
+				}
+			}
+		}
+	},
+	"education": {
+		"title": "Education",
+		"1": {
+			"institution": "Küçükçekmece High School",
+			"field": "Foreign Language Class",
+			"period": "2013 - 2017"
+		},
+		"2": {
+			"institution": "Ege University",
+			"field": "English Language and Literature",
+			"period": "2017 - 2022"
+		},
+		"3": {
+			"institution": "Academy Peak",
+			"instructor": "Ömer Çıtak",
+			"field": "Secure Software Development",
+			"period": "16-18 March, 2023"
+		}
+	},
+	"language": {
+		"title": "Languages",
+		"1": { "name": "English", "fluency": "Aptis C1" },
+		"2": { "name": "Turkish", "fluency": "Native" }
+	},
+	"reference": {
+		"title": "References",
+		"1": {
+			"name": "Alper Derya",
+			"title": "Software Development Manager",
+			"phone": "+90 533 210 80 28",
+			"email": "alper.derya@gmail.com",
+			"company": "Etstur"
+		},
+		"2": {
+			"name": "Uğur Yılmaz",
+			"title": "Front-end Team Lead",
+			"phone": "+90 545 551 19 93",
+			"email": "ugrr.yilmaz@gmail.com",
+			"company": "Etstur"
+		}
+	}
+}

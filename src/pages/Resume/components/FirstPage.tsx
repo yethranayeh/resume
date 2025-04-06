@@ -1,25 +1,24 @@
+import { useTranslation } from "react-i18next";
 import { ResumeHeader } from "../../../components/Header";
 import { ExperienceContent } from "./ExperienceContent";
+import styles from "./FirstPage.module.scss";
 
-export function FirstPage({ lang }: { lang: LangOption }) {
+export function FirstPage() {
+	const { t, i18n } = useTranslation();
 	return (
 		<page size='A4'>
 			<main>
 				<ResumeHeader />
-				<h2 className='vocation'>Frontend Developer</h2>
+				<h2 className={styles.vocation}>{t("header.title")}</h2>
 
-				{lang === "en" && (
-					<p className='text-medium' style={{ paddingLeft: "2mm" }}>
-						Eligible to work in EU countries<span style={{ color: "crimson" }}>*</span> (Bulgarian Citizenship)
-					</p>
-				)}
+				<article className={styles.summary}>{t("experience.summary")}</article>
 
 				<div
-					className='exp-1'
+					className={styles.printHack}
 					style={{
-						"--cutoff": lang === "en" ? "170px" : "200px"
+						"--cutoff": i18n.language === "en" ? "100px" : "200px"
 					}}>
-					<ExperienceContent lang={lang} />
+					<ExperienceContent />
 				</div>
 			</main>
 		</page>

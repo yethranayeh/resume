@@ -1,0 +1,117 @@
+{
+	"header": {
+		"name": "Alper Aktaş",
+		"title": "Yazılım Geliştirici",
+		"phone": "+90 534 621 81 05",
+		"mail": "aktasalper99@gmail.com",
+		"linkedIn": "https://www.linkedin.com/in/aktasalper/",
+		"portfolio": "https://www.aktasalper.com/",
+		"location": "Avcılar, İstanbul"
+	},
+
+	"experience": {
+		"title": "Tecrübe",
+		"list": [
+			{
+				"company": "Etstur",
+				"title": "Yazılım Geliştirme Uzman Yardımcısı",
+				"period": { "start": "Temmuz 25, 2022" },
+				"description": "Şirketin React bazlı B2B web uygulamalarının geliştirilmesinde rol alıyorum. Şu anda şirketimizin UI Kit projesinin yazılım geliştirme sürecini yönetiyorum. Çalışma ortamı, UI/UX ekibinin Figma tasarımları ve ürün sahipleri tarafından yönetilen bir Jira Sprint'i etrafında dönüyor. Bu çevik çalışma ortamında pek çok projeye katılım sağlayarak Etstur'un frontend modernizasyon çalışmalarına büyük katkılarda bulundum. Ayrıca, yer aldığım projelerle ilgili bilgi aktarımını sağlamak adına Confluence Wiki platformunda dokümanlar yazdım. Şirket içindeki 'DevOps Heroes' ekibinin frontend temsilcisi olarak, haftalık toplantılara düzenli olarak katılıyor ve DevOps süreçleriyle ilgili güncel bilgilere ulaşıyorum.",
+				"roles": [
+					{
+						"project": "UI Kit",
+						"description": "UI/UX ekibi tarafından Figma'da tasarlanan ve şirket içindeki tüm modern projelerde kullanılması amaçlanan standartlaştırılmış UI Kit tasarımlarını, React bileşenlerine dönüştüren geliştirici olarak öncü rol oynuyorum. React tabanlı bu bileşen kütüphanesine ek olarak, iç projelere entegrasyonu kolaylaştıran bir CLI aracı da geliştirdim. UI Kit projesini bir monorepo olarak tasarlayarak, yarn 'workspaces' özelliğini kullanarak CLI ve UI Kit kütüphanelerini birbirine bağladım ve geliştirme sürecini basitleştirdim.",
+						"stack": ["Storybook", "React", "MUI", "ink", "inquirer", "meow"]
+					},
+					{
+						"project": "E-mail Template",
+						"description": "Etstur tarafından kullanıcılara gönderilen e-postaları standart hale getirmek için bu projeyi oluşturdum ve mevcut e-posta sürecine entegre ettim. Yazdığım CLI betiği sayesinde, e-posta değişiklikleri hızlı ve otomatik olarak Mandrill'e deploy edilebiliyor. Proje başlangıçta 'mjml-react' ile geliştirildi, ancak bakım maliyetini düşürmek ve kullanılabilirliği arttırmak için daha sonra 'react-email' ile güncellendi.",
+						"stack": ["Mandrill", "mjml-react", "react-email", "node.js"]
+					},
+					{
+						"project": "Extranet & Intranet",
+						"description": "Modernizasyon sürecinin bir parçası olarak, mevcutta müşteriler tarafından aktif olarak kullanılan eski projelerin bakım süreçlerinde zaman zaman yer aldım.",
+						"stack": ["JavaScript", "FTL", "JSTL", "JSP", "Java"]
+					},
+					{
+						"project": "Dijital Kontrat",
+						"description": "Etstur kontrat ekibinin, otel kontratlarını dijitalleştirmek ve süreçleri takip etmek amacıyla talep ettiği proje. Projenin başlangıcından itibaren tek frontend geliştirici olarak sorumluluğunu üstlendim ve projeyi baştan sona geliştirerek canlıya aldım. Nisan 2023 itibariyle tüm tatil köyü otelleri kontrat detaylarını ve belgelerini Dijital Kontrat sistemi üzerinden yönetmeye başladı. Proje, Etstur Aylık Teknoloji Bülteni'nde 'Ayın Ürünü' olarak tanıtıldı. Proje canlıya alındıktan sonra yeni frontend ekibine aktarım ve bakım konusunda destek verdim.",
+						"stack": ["TypeScript", "React", "RTK", "Vite", "Vitest", "CASL"]
+					},
+					{
+						"project": "B2B Boilerplate",
+						"description": "B2B React projelerinin hızlıca kurulabilmesi için oluşturduğum bir boilerplate projesi. Etspartners projesinin temellerini attıktan sonra, gelecekteki diğer B2B projelerinde kullanılacak teknoloji, kod standartları ve proje yapısını derleyerek tekrar kullanılabilir hale getirdim.",
+						"stack": ["TypeScript", "React", "RTK", "Vite", "CASL"]
+					},
+					{
+						"project": "etspartners.com",
+						"description": "Etstur'un iş ortakları için geliştirdiği B2B dashboard uygulamasının modernleştirilmiş versiyonu. React ve Java Spring Boot kullanılarak yeniden yazıldı. Projenin frontend iskeletinin oluşturulmasında rol aldım ve 'Dijital Kontrat' projesinde çalıştığım süre hariç, tüm geliştirme, bakım ve onarım süreçlerinde yer aldım.",
+						"stack": ["TypeScript", "React", "RTK", "Vite", "Vitest", "CASL"]
+					}
+				]
+			},
+			{
+				"company": "1Pixel Digital Agency",
+				"title": "Front-end Stajyerliği",
+				"period": { "start": "Ekim 2021", "end": "Kasım 2021" },
+				"description": "Jira üzerinden yönetilen Agile süreçte, sayfaların ilgili grafik tasarımlarına karşılık gelen işlevsel ve responsive bölümlerinin kodlanması.",
+				"roles": [
+					{
+						"project": "Shopify",
+						"description": "Shopify kullanan satıcılara, özelleştirilebilir temaların oluşturulması ve kullanımı kolay CMS kontrollerinin eklenmesi. Bu kontrolleri temalara entegre etmenin yanı sıra, Liquid templating dilini kullanarak dinamik mağaza verilerin sayfa öğelerine akışının sağlanması.",
+						"stack": ["HTML", "CSS", "Liquid"]
+					}
+				]
+			}
+		],
+		"present": "Devam Ediyor"
+	},
+	"education": {
+		"title": "Eğitim",
+		"list": [
+			{
+				"institution": "Academy Peak",
+				"instructor": "Ömer Çıtak",
+				"field": "Güvenli Yazılım Geliştirme",
+				"period": "16-18 Mart, 2023"
+			},
+			{
+				"institution": "Ege Üniversitesi",
+				"field": "İngiliz Dili ve Edebiyatı",
+				"period": "2017 - 2022"
+			},
+			{
+				"institution": "Küçükçekmece Anadolu Lisesi",
+				"field": "Dil Sınıfı",
+				"period": "2015 - 2017"
+			}
+		]
+	},
+	"language": {
+		"title": "Diller",
+		"list": [
+			{ "name": "Türkçe", "fluency": "Ana Dil" },
+			{ "name": "İngilizce", "fluency": "Aptis C1" }
+		]
+	},
+	"reference": {
+		"title": "Referanslar",
+		"list": [
+			{
+				"name": "Alper Derya",
+				"title": "Yazılım Geliştirme Yönetmeni",
+				"phone": "+90 533 210 80 28",
+				"email": "alper.derya@gmail.com",
+				"company": "Etstur"
+			},
+			{
+				"name": "Uğur Yılmaz",
+				"title": "Front-end Takım Lideri",
+				"phone": "+90 545 551 19 93",
+				"email": "ugrr.yilmaz@gmail.com",
+				"company": "Etstur"
+			}
+		]
+	},
+	"certificates": []
+}

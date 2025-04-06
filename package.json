@@ -1,5 +1,5 @@
 {
-	"name": "my-vue-app",
+	"name": "@aktasalper/resume",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
@@ -10,7 +10,10 @@
 		"deploy": "git subtree push --prefix dist origin gh-pages"
 	},
 	"dependencies": {
+		"i18next": "^24.2.2",
+		"lodash": "^4.17.21",
 		"preact": "^10.24.1",
+		"react-i18next": "^15.4.0",
 		"react-router-dom": "^6.27.0"
 	},
 	"devDependencies": {

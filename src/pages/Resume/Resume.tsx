@@ -1,7 +1,6 @@
-import { ExperienceContent } from "./components/ExperienceContent";
+import { useTranslation } from "react-i18next";
 import { FirstPage } from "./components/FirstPage";
 import { SecondPage } from "./components/SecondPage";
-import "./hacks.scss";
 
 declare global {
 	namespace React.JSX {
@@ -11,18 +10,12 @@ declare global {
 	}
 }
 
-export const Resume = ({ lang }: { lang: LangOption }) => (
-	<>
-		<FirstPage lang={lang} />
-		<page size='A4'>
-			<div
-				className='exp-2'
-				style={{
-					"--cutoff": lang === "en" ? "-730px" : "-750px"
-				}}>
-				<ExperienceContent lang={lang} />
-			</div>
-		</page>
-		<SecondPage lang={lang} />
-	</>
-);
+export const Resume = () => {
+	const { language } = useTranslation().i18n;
+	return (
+		<>
+			<FirstPage />
+			<SecondPage />
+		</>
+	);
+};

@@ -1,0 +1,28 @@
+@import "../variables.scss";
+
+.section {
+	display: flex;
+	flex-direction: column;
+	border: 2px solid $primary;
+}
+
+.titleContainer {
+	width: 100% !important;
+	display: grid;
+	place-items: center;
+
+	padding: 2mm 0;
+	background-color: $primary;
+}
+
+.title {
+	color: $secondary;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+
+	gap: $spacing-4;
+	padding: $spacing !important;
+}

@@ -1,14 +1,23 @@
 import { Outlet, createHashRouter } from "react-router-dom";
 import { Resume } from "./Resume/Resume";
 
+import { LanguageHandler } from "./LanguageHandler";
+import { Navbar } from "../components/NavBar";
+
 const router = createHashRouter([
 	{
 		path: "/",
-		element: <Outlet />,
+		element: (
+			<>
+				{/* <Navbar /> */}
+				<LanguageHandler />
+				<Outlet />
+			</>
+		),
 		children: [
-			{ path: "/", element: <Resume lang='tr' /> },
-			{ path: "/en", element: <Resume lang='en' /> },
-			{ path: "/tr", element: <Resume lang='tr' /> }
+			{ path: "/", element: <Resume /> },
+			{ path: "/en", element: <Resume /> },
+			{ path: "/tr", element: <Resume /> }
 		]
 	}
 ]);

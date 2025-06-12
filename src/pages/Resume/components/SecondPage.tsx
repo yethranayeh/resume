@@ -23,7 +23,7 @@ export function SecondPage() {
 			<div
 				className={styles.printHack}
 				style={{
-					"--cutoff": i18n.language === "en" ? "-730px" : "-750px"
+					"--cutoff": i18n.language === "en" ? "-760px" : "-740px"
 				}}>
 				<ExperienceContent />
 				<div className='lower-grid '>
@@ -42,7 +42,7 @@ export function SecondPage() {
 					</div>
 
 					<div className='languages'>
-						<ResumeSection title={t("language.title")}>
+						<ResumeSection title={t("language.title")} style={{ paddingBottom: 2 }}>
 							<div>
 								{languageIndexes.map((langIndex) => (
 									<div key={langIndex}>

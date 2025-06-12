@@ -6,42 +6,58 @@
 		"mail": "aktasalper99@gmail.com",
 		"linkedIn": "https://www.linkedin.com/in/aktasalper/",
 		"portfolio": "https://www.aktasalper.com/",
-		"location": "Schongau, Bavaria"
+		"location": "Schongau, Bayern"
 	},
 	"experience": {
 		"title": "Experience",
-		"summary": "3+ years of experience building React-based web applications. Proven track record in leading UI/UX modernization efforts, designing reusable component libraries, and automating frontend workflows. Skilled in TypeScript, React, Redux Toolkit (RTK), and building responsive, user-friendly interfaces with libraries like MUI and documenting with Storybook.",
+		"summary": "Frontend developer with 3+ years of experience delivering scalable, maintainable web applications. Strong foundation in TypeScript and React, with expertise in modern UI patterns, component-driven development, and responsive design. Comfortable working across diverse frontend stacks, with deep familiarity in ecosystem tools like Redux Toolkit, MUI, and Storybook.",
 		"present": "Present",
 		"companies": {
+			"ets-2": {
+				"company": "Etstur",
+				"title": "Software Developer",
+				"period": { "start": "May, 2025", "end": "August, 2025" },
+				"description": "Lead software development for the UI Kit project and developed a AI Form Agent as a side project.",
+				"role": {
+					"1": {
+						"project": "Form Agent",
+						"description": "A side project chosen for the yearly performance review. Developed a simple POC with Gemini."
+					},
+					"2": {
+						"project": "UI Kit",
+						"description": "Lead the development of the B2B UI Kit library, providing reusable React components for Extranet, Intranet, and two additional departmental projects."
+					}
+				}
+			},
 			"ets": {
 				"company": "Etstur",
-				"title": "Software Development Assistant",
-				"period": { "start": "July 25, 2022" },
-				"description": "I work in the development of the company's React-based B2B web applications. I am currently leading the software development efforts of our company's UI Kit project. The work environment consists of Figma designs by the UI/UX team and a Jira Sprint managed by product owners. Within this agile workflow, I participated in many projects and contributed heavily to Etstur's frontend modernization efforts. I also wrote documentation articles on our Confluence Wiki platform to share information about the projects I participated in. I am also a front-end representative in the in-house team called 'DevOps Heroes' and I regularly attend weekly meetings to keep up to date with DevOps processes.",
+				"title": "Junior Software Developer",
+				"period": { "start": "July 25, 2022", "end": "May, 2025" },
+				"description": "Participated in developing the company's first React-based B2B web applications as part of a legacy modernization initiative. Collaborated with UI/UX designers using Figma and managed tasks in a Jira-driven agile workflow, contributing to multiple projects and documenting processes for knowledge sharing.",
 				"role": {
 					"1": {
 						"project": "UI Kit",
-						"description": "I am the leading developer in converting standardized UI Kit designs on Figma from the UI/UX team into React components for use in all modern projects within the company. In addition to the React-based component library, I wrote a CLI tool that facilitates integration into internal projects. I structured the UI Kit project as a monorepo and simplified the development process by linking the CLI and UI Kit libraries by utilizing yarn's 'workspaces' feature."
+						"description": "Conceptualized and built the UI Kit project, converting Figma designs into a React component library. Created a CLI tool to allow for individual component imports into existing projects and structured the project as a monorepo using Yarn workspaces."
 					},
 					"2": {
 						"project": "E-mail Template",
-						"description": "I created this project to standardize emails sent to users by Etstur, starting with 'Etspartners,' and integrated it into the current email process. With the CLI script I wrote, email changes are quickly and automatically deployed to Mandrill. Initially developed with 'mjml-react,' I later updated the project to use 'react-email' to reduce maintenance costs and increase usability."
+						"description": "Created a standardized email template system integrated with Mandrill, automating deployments via a custom CLI script. Started with 'mjml-react', then switched to 'react-email' to enhance maintainability and usability."
 					},
 					"3": {
 						"project": "Extranet & Intranet",
-						"description": "I occasionally participated in the maintenance of older projects that customers actively use as part of the modernization process."
+						"description": "Maintained and updated legacy Extranet and Intranet applications as part of ongoing modernization efforts."
 					},
 					"4": {
 						"project": "Digital Contract",
-						"description": "This project was requested by Etstur's contract team to digitize hotel contracts and track contract processes. I took responsibility for the 'Digital Contract' project as the sole front-end developer from the beginning to live deployment. From April 2023, all resort hotels began managing contract details and documents through the Digital Contract. The project was featured as 'Product of the Month' in Etstur's Monthly Technology Bulletin. After the project went live, I supported the handover and maintenance to the new front-end team."
+						"description": "Owned the Digital Contract project as sole front-end developer from inception to deployment, enabling resort hotels to manage contract details and documents. Recognized as 'Product of the Month' in Etstur's Monthly Technology Bulletin and provided post-launch support to the new front-end team."
 					},
 					"5": {
 						"project": "B2B Boilerplate",
-						"description": "I created a boilerplate project to quickly set up B2B React projects. After laying the foundation with 'Etspartners,' I compiled the technologies, code standards, and project structure we might need for other B2B projects and made them reusable in the boilerplate."
+						"description": "Developed a reusable B2B React boilerplate, defining technologies, coding standards, and project structure to accelerate new project setups."
 					},
 					"6": {
 						"project": "etspartners.com",
-						"description": "The modernized version of Etstur's B2B dashboard application for our partnered hotels. Rewritten using React and Java Spring Boot. I played a role in setting up the front-end skeleton and was involved in all development, maintenance, and repair processes, except for the time spent on the 'Digital Contract' project."
+						"description": "Contributed to the modernization of Etstur's B2B dashboard (etspartners.com), rewriting the frontend in React and integrating with a Java Spring Boot backend. Involved in development, maintenance, and troubleshooting activities except during dedicated work on the Digital Contract project."
 					}
 				}
 			},
@@ -49,11 +65,11 @@
 				"company": "1Pixel Digital Agency",
 				"title": "Front-End Development Intern",
 				"period": { "start": "October 2021", "end": "November 2021" },
-				"description": "Through agile processes managed by Jira Sprints, I coded functional and responsive sections of pages corresponding to the related graphic designs.",
+				"description": "Implemented responsive, functional page sections based on graphic designs within a Jira-managed agile process.",
 				"role": {
 					"1": {
 						"project": "Shopify Templates",
-						"description": "For sellers using Shopify, I created customizable themes and added user-friendly CMS controls. In addition to integrating these controls into themes, I ensured the flow of dynamic store data to page elements using the Liquid templating language."
+						"description": "Developed customizable Shopify themes with CMS controls and integrated dynamic store data using Liquid templating."
 					}
 				}
 			}

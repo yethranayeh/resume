@@ -11,7 +11,6 @@ declare global {
 }
 
 export const Resume = () => {
-	const { language } = useTranslation().i18n;
 	return (
 		<>
 			<FirstPage />

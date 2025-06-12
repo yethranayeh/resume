@@ -2,7 +2,6 @@ import { Outlet, createHashRouter } from "react-router-dom";
 import { Resume } from "./Resume/Resume";
 
 import { LanguageHandler } from "./LanguageHandler";
-import { Navbar } from "../components/NavBar";
 
 const router = createHashRouter([
 	{

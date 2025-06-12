@@ -10,4 +10,6 @@ export function LanguageHandler() {
 		const language = parseLanguageFromLocation(location.pathname);
 		i18n.changeLanguage(language);
 	}, [location.pathname]);
+
+	return null;
 }

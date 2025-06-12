@@ -30,7 +30,7 @@ const companies = [
 ] as const;
 
 export function ExperienceContent() {
-	const { t, i18n } = useTranslation(undefined, { keyPrefix: "experience" });
+	const { t } = useTranslation(undefined, { keyPrefix: "experience" });
 
 	return (
 		<ResumeSection title={t("title")}>

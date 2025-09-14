@@ -56,28 +56,22 @@
 		}
 	},
 	"education": {
-		"title": "Education",
+		"title": "Education & Languages",
 		"1": {
-			"institution": "Küçükçekmece High School",
-			"field": "Foreign Language Class",
-			"period": "2013 - 2017"
-		},
-		"2": {
 			"institution": "Ege University",
 			"field": "English Language and Literature",
 			"period": "2017 - 2022"
 		},
-		"3": {
+		"2": {
 			"institution": "Academy Peak",
 			"instructor": "Ömer Çıtak",
 			"field": "Secure Software Development",
 			"period": "16-18 March, 2023"
+		},
+		"language": {
+			"1": { "name": "English", "fluency": "C1 (Aptis Certified)" },
+			"2": { "name": "Turkish", "fluency": "Native" }
 		}
-	},
-	"language": {
-		"title": "Languages",
-		"1": { "name": "English", "fluency": "Aptis C1" },
-		"2": { "name": "Turkish", "fluency": "Native" }
 	},
 	"reference": {
 		"title": "References",

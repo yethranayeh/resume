@@ -3,10 +3,11 @@ import { useTranslation } from "react-i18next";
 import { ExperienceContent } from "./ExperienceContent";
 import { ResumeSection } from "../../../components/Section";
 import { Education } from "../../../components/Education";
+import { Reference } from "../../../components/Reference";
 
 import { itemCount } from "../../../i18n/en/text";
+
 import styles from "./SecondPage.module.scss";
-import { Reference } from "../../../components/Reference";
 
 const getTypedString = (v: number) => v.toString() as "1";
 const educationIndexes = new Array(itemCount.education)
@@ -23,9 +24,9 @@ export function SecondPage() {
 			<div
 				className={styles.printHack}
 				style={{
-					"--cutoff": i18n.language === "en" ? "-720px" : "-740px"
+					"--cutoff": i18n.language === "en" ? "-1mm" : "-740px"
 				}}>
-				<ExperienceContent />
+				<ExperienceContent hideTitle cutoffPoint={{ companyIndex: 1 }} />
 				<div className='lower-grid '>
 					<div className='education'>
 						<ResumeSection title={t("education.title")}>
@@ -38,18 +39,15 @@ export function SecondPage() {
 									period={t(`education.${itemIndex}.period`)}
 								/>
 							))}
-						</ResumeSection>
-					</div>
-
-					<div className='languages'>
-						<ResumeSection title={t("language.title")} style={{ paddingBottom: 2 }}>
-							<div>
-								{languageIndexes.map((langIndex) => (
-									<div key={langIndex}>
-										{t(`language.${langIndex}.name`)} -{" "}
-										<span className='text-caption'>{t(`language.${langIndex}.fluency`)}</span>
-									</div>
-								))}
+							<div className='languages'>
+								<div style={{ display: "flex", flexDirection: "column", gap: "1mm" }}>
+									{languageIndexes.map((langIndex) => (
+										<div key={langIndex}>
+											{t(`education.language.${langIndex}.name`)} -{" "}
+											<span className='text-caption'>{t(`education.language.${langIndex}.fluency`)}</span>
+										</div>
+									))}
+								</div>
 							</div>
 						</ResumeSection>
 					</div>
@@ -66,6 +64,11 @@ export function SecondPage() {
 									email={t(`reference.${referenceIndex}.email`)}
 								/>
 							))}
+							<div
+								style={{
+									minHeight: "2.3mm"
+								}}
+							/>
 						</ResumeSection>
 					</div>
 				</div>

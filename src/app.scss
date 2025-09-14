@@ -11,7 +11,7 @@ body {
 main {
 	display: flex;
 	flex-direction: column;
-	gap: $spacing-2;
+	gap: $spacing;
 }
 
 p {
@@ -73,8 +73,8 @@ p {
 	gap: 0px 0px;
 	grid-auto-flow: row;
 	grid-template-areas:
-		"education languages"
-		"education references";
+		"education references"
+		"languages references";
 
 	& > div {
 		height: 100%;

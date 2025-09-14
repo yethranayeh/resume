@@ -78,16 +78,11 @@
 	"education": {
 		"title": "Eğitim",
 		"1": {
-			"institution": "Küçükçekmece Lisesi",
-			"field": "Yabancı Dil Sınıfı",
-			"period": "2013 - 2017"
-		},
-		"2": {
 			"institution": "Ege Üniversitesi",
 			"field": "İngiliz Dili ve Edebiyatı",
 			"period": "2017 - 2022"
 		},
-		"3": {
+		"2": {
 			"institution": "Academy Peak",
 			"instructor": "Ömer Çıtak",
 			"field": "Güvenli Yazılım Geliştirme",

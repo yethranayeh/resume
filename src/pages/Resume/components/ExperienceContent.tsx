@@ -5,6 +5,15 @@ import { ResumeSection } from "../../../components/Section";
 import { Project } from "../../../components/Experience/Project";
 import { Tech } from "../../../components/Tech";
 
+type CutoffPoint = {
+	companyIndex?: number;
+	projectIndex?: number;
+};
+interface Props {
+	hideTitle?: boolean;
+	cutoffPoint?: CutoffPoint;
+}
+
 const companies = [
 	{
 		name: "ets",
@@ -19,14 +28,14 @@ const companies = [
 	{ isPromoted: false, name: "1pixel", projects: [{ role: "1", tech: ["HTML", "CSS", "Liquid", "Shopify Templates"] }] }
 ] as const;
 
-export function ExperienceContent() {
+export function ExperienceContent({ hideTitle, cutoffPoint }: Props) {
 	const { t } = useTranslation(undefined, { keyPrefix: "experience" });
 
 	return (
-		<ResumeSection title={t("title")}>
-			{companies.map(({ name, projects }) => (
+		<ResumeSection hideTitle={hideTitle} title={t("title")}>
+			{companies.slice(cutoffPoint?.companyIndex).map(({ name, projects }) => (
 				<Experience key={name} company={name}>
-					{projects.map((project) => (
+					{projects.slice(cutoffPoint?.projectIndex).map((project) => (
 						<Project
 							key={project.role}
 							// @ts-expect-error

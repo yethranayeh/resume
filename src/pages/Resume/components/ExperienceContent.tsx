@@ -9,10 +9,7 @@ const companies = [
 	{
 		isPromoted: false,
 		name: "ets-2",
-		projects: [
-			{ role: "1", tech: ["Gemini AI", "tsdx", "npm"] },
-			{ role: "2", tech: ["Storybook", "React", "MUI", "yarn", "Jenkins"] }
-		]
+		projects: [{ role: "1", tech: ["Storybook", "React", "MUI", "yarn", "Jenkins"] }]
 	},
 	{
 		isPromoted: true,
@@ -22,8 +19,7 @@ const companies = [
 			{ role: "2", tech: ["Mandrill", "mjml-react", "react-email", "node.js", "Jenkins"] },
 			{ role: "3", tech: ["JavaScript", "FTL", "JSTL", "JSP", "Java"] },
 			{ role: "4", tech: ["TypeScript", "React", "RTK", "Vite", "Vitest", "CASL"] },
-			{ role: "5", tech: ["TypeScript", "React", "RTK", "Vite", "CASL"] },
-			{ role: "6", tech: ["TypeScript", "React", "RTK", "Vite", "Vitest", "CASL"] }
+			{ role: "5", tech: ["TypeScript", "React", "RTK", "Vite", "CASL"] }
 		]
 	},
 	{ isPromoted: false, name: "1pixel", projects: [{ role: "1", tech: ["HTML", "CSS", "Liquid", "Shopify Templates"] }] }

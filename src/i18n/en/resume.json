@@ -6,24 +6,20 @@
 		"mail": "aktasalper99@gmail.com",
 		"linkedIn": "https://www.linkedin.com/in/aktasalper/",
 		"portfolio": "https://www.aktasalper.com/",
-		"location": "Schongau, Bayern"
+		"location": "Schongau, Bavaria, Germany"
 	},
 	"experience": {
 		"title": "Experience",
-		"summary": "Frontend developer with 3+ years of experience delivering scalable, maintainable web applications. Strong foundation in TypeScript and React, with expertise in modern UI patterns, component-driven development, and responsive design. Comfortable working across diverse frontend stacks, with deep familiarity in ecosystem tools like Redux Toolkit, MUI, and Storybook.",
+		"summary": "Frontend developer with 3+ years of experience building scalable, maintainable web applications. Skilled in TypeScript, React, and modern UI patterns, with a proven record of elevating code quality, streamlining workflows, and enhancing user experience across diverse frontend stacks.",
 		"present": "Present",
 		"companies": {
 			"ets-2": {
 				"company": "Etstur",
 				"title": "Software Developer",
-				"period": { "start": "May, 2025", "end": "August, 2025" },
-				"description": "Lead software development for the UI Kit project and developed a AI Form Agent as a side project.",
+				"period": { "start": "May 2025", "end": "August 2025" },
+				"description": "Developed a React component library based on the UI/UX team's Figma designs and standards, enabling consistent implementation of the new UI Kit across B2B applications and cutting down the effort required to convert new designs into code.",
 				"role": {
 					"1": {
-						"project": "Form Agent",
-						"description": "A side project chosen for the yearly performance review. Developed a simple POC with Gemini."
-					},
-					"2": {
 						"project": "UI Kit",
 						"description": "Lead the development of the B2B UI Kit library, providing reusable React components for Extranet, Intranet, and two additional departmental projects."
 					}
@@ -32,32 +28,28 @@
 			"ets": {
 				"company": "Etstur",
 				"title": "Junior Software Developer",
-				"period": { "start": "July 25, 2022", "end": "May, 2025" },
-				"description": "Participated in developing the company's first React-based B2B web applications as part of a legacy modernization initiative. Collaborated with UI/UX designers using Figma and managed tasks in a Jira-driven agile workflow, contributing to multiple projects and documenting processes for knowledge sharing.",
+				"period": { "start": "July 2022", "end": "May 2025" },
+				"description": "Modernized B2B web applications by building a reusable React UI Kit and establishing a monorepo structure. Led the Digital Contract project as sole front-end developer, and rebuilt the etspartners.com dashboard with a modern React stack.",
 				"role": {
 					"1": {
 						"project": "UI Kit",
-						"description": "Conceptualized and built the UI Kit project, converting Figma designs into a React component library. Created a CLI tool to allow for individual component imports into existing projects and structured the project as a monorepo using Yarn workspaces."
+						"description": "Transformed Figma designs into a reusable React UI Kit, introducing a CLI tool for seamless component integration and establishing a monorepo structure for maintainability."
 					},
 					"2": {
 						"project": "E-mail Template",
-						"description": "Created a standardized email template system integrated with Mandrill, automating deployments via a custom CLI script. Started with 'mjml-react', then switched to 'react-email' to enhance maintainability and usability."
+						"description": "Devised and launched a standardized email template system, automating deployments and enhancing communication consistency."
 					},
 					"3": {
 						"project": "Extranet & Intranet",
-						"description": "Maintained and updated legacy Extranet and Intranet applications as part of ongoing modernization efforts."
+						"description": "Improved legacy Extranet and Intranet applications, significantly increasing performance and reducing technical debt as part of ongoing modernization."
 					},
 					"4": {
 						"project": "Digital Contract",
-						"description": "Owned the Digital Contract project as sole front-end developer from inception to deployment, enabling resort hotels to manage contract details and documents. Recognized as 'Product of the Month' in Etstur's Monthly Technology Bulletin and provided post-launch support to the new front-end team."
+						"description": "Started the Digital Contract project as a solo front-end developer, enabling Etstur's contract team to digitalize contract data and track its flow across multiple departments within the company, earning internal recognition for innovation."
 					},
 					"5": {
-						"project": "B2B Boilerplate",
-						"description": "Developed a reusable B2B React boilerplate, defining technologies, coding standards, and project structure to accelerate new project setups."
-					},
-					"6": {
 						"project": "etspartners.com",
-						"description": "Contributed to the modernization of Etstur's B2B dashboard (etspartners.com), rewriting the frontend in React and integrating with a Java Spring Boot backend. Involved in development, maintenance, and troubleshooting activities except during dedicated work on the Digital Contract project."
+						"description": "Modernized the old Extranet by rewriting the frontend in React and integrating with a Java Spring Boot backend, improving reliability and maintainability."
 					}
 				}
 			},
@@ -65,11 +57,11 @@
 				"company": "1Pixel Digital Agency",
 				"title": "Front-End Development Intern",
 				"period": { "start": "October 2021", "end": "November 2021" },
-				"description": "Implemented responsive, functional page sections based on graphic designs within a Jira-managed agile process.",
+				"description": "Delivered responsive, high-quality page sections from graphic designs within an agile, Jira-managed workflow.",
 				"role": {
 					"1": {
 						"project": "Shopify Templates",
-						"description": "Developed customizable Shopify themes with CMS controls and integrated dynamic store data using Liquid templating."
+						"description": "Created customizable Shopify themes with CMS controls, integrating dynamic store data using Liquid templating to enhance client flexibility."
 					}
 				}
 			}
@@ -113,7 +105,7 @@
 			"title": "Front-end Team Lead",
 			"phone": "+90 545 551 19 93",
 			"email": "ugrr.yilmaz@gmail.com",
-			"company": "Etstur"
+			"company": "Turkcell (Ex-Etstur)"
 		}
 	}
 }

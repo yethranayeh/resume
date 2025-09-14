@@ -16,7 +16,7 @@ export function FirstPage() {
 				<div
 					className={styles.printHack}
 					style={{
-						"--cutoff": i18n.language === "en" ? "90px" : "80px"
+						"--cutoff": i18n.language === "en" ? "110px" : "80px"
 					}}>
 					<ExperienceContent />
 				</div>

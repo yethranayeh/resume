@@ -23,7 +23,7 @@ export function SecondPage() {
 			<div
 				className={styles.printHack}
 				style={{
-					"--cutoff": i18n.language === "en" ? "-740px" : "-740px"
+					"--cutoff": i18n.language === "en" ? "-720px" : "-740px"
 				}}>
 				<ExperienceContent />
 				<div className='lower-grid '>

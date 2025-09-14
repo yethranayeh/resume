@@ -13,27 +13,15 @@
 		"summary": "Frontend developer with 3+ years of experience building scalable, maintainable web applications. Skilled in TypeScript, React, and modern UI patterns, with a proven record of elevating code quality, streamlining workflows, and enhancing user experience across diverse frontend stacks.",
 		"present": "Present",
 		"companies": {
-			"ets-2": {
-				"company": "Etstur",
-				"title": "Software Developer",
-				"period": { "start": "May 2025", "end": "August 2025" },
-				"description": "Developed a React component library based on the UI/UX team's Figma designs and standards, enabling consistent implementation of the new UI Kit across B2B applications and cutting down the effort required to convert new designs into code.",
-				"role": {
-					"1": {
-						"project": "UI Kit",
-						"description": "Lead the development of the B2B UI Kit library, providing reusable React components for Extranet, Intranet, and two additional departmental projects."
-					}
-				}
-			},
 			"ets": {
 				"company": "Etstur",
-				"title": "Junior Software Developer",
-				"period": { "start": "July 2022", "end": "May 2025" },
-				"description": "Modernized B2B web applications by building a reusable React UI Kit and establishing a monorepo structure. Led the Digital Contract project as sole front-end developer, and rebuilt the etspartners.com dashboard with a modern React stack.",
+				"title": "Software Developer",
+				"period": { "start": "July 2022", "end": "August 2025" },
+				"description": "Modernized B2B web applications with React. Led the Digital Contract project as sole front-end developer, rebuilt the etspartners.com dashboard with a modern React stack, and later led the development of a new B2B UI Kit library based on Figma standards, enabling consistent UI implementation and reducing design-to-code effort.",
 				"role": {
 					"1": {
 						"project": "UI Kit",
-						"description": "Transformed Figma designs into a reusable React UI Kit, introducing a CLI tool for seamless component integration and establishing a monorepo structure for maintainability."
+						"description": "Transformed Figma designs into a reusable React UI Kit, introducing a CLI tool for easier component integration and establishing a monorepo structure for maintainability. Providing reusable React components for Extranet, Intranet, and two additional departmental projects, enabling consistent implementation of the new UI Kit across B2B applications and cutting down the effort required to convert new designs into code."
 					},
 					"2": {
 						"project": "E-mail Template",

@@ -7,6 +7,7 @@ export const ResumeSection = ({
 	hideTitle,
 	...props
 }: HTMLProps<HTMLElement> & { hideTitle?: boolean }) => (
+	// @ts-expect-error
 	<section {...props} className={styles.section}>
 		{!hideTitle && <h2 className='header'>{title}</h2>}
 

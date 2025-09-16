@@ -1,5 +1,4 @@
 import { FirstPage } from "./components/FirstPage";
-import { SecondPage } from "./components/SecondPage";
 
 declare global {
 	namespace React.JSX {
@@ -13,7 +12,6 @@ export const Resume = () => {
 	return (
 		<>
 			<FirstPage />
-			{/* <SecondPage /> */}
 		</>
 	);
 };

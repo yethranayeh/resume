@@ -1,0 +1,82 @@
+{
+	"header": {
+		"name": "Alper Halil",
+		"location": "Schongau, Bayern, Deutschland",
+		"summary": "Softwareentwickler mit über 3 Jahren Erfahrung in der Entwicklung skalierbarer und wartbarer Webanwendungen. Versiert in TypeScript, React und modernen UI-Mustern, mit nachgewiesener Erfolgsbilanz bei der Verbesserung der Codequalität, Optimierung von Workflows und Steigerung der Benutzererfahrung in verschiedenen Frontend-Stacks."
+	},
+	"experience": {
+		"title": "Berufserfahrung",
+		"present": "Gegenwart",
+		"skills": "Fähigkeiten",
+		"companies": {
+			"ets": {
+				"company": "Etstur",
+				"location": "Istanbul, Türkei",
+				"title": "Softwareentwickler",
+				"period": { "start": "Juli 2022", "end": "August 2025" },
+				"description": "Modernisierung von B2B-Webanwendungen mit React in einem agilen, funktionsübergreifenden Umfeld. Leitung des Digital Contract-Projekts als alleiniger Frontend-Entwickler, Neuentwicklung von Legacy-B2B-Anwendungen mit modernen React-Technologien und später Leitung der Entwicklung einer neuen B2B-UI-Komponentenbibliothek basierend auf UI/UX-Teamstandards. Gewährleistung einer konsistenten UI-Implementierung und deutliche Reduzierung des Aufwands für die Umsetzung von Design in Code. Außerdem als Frontend-Vertreter in DevOps-Meetings des Unternehmens tätig.",
+				"role": {
+					"1": {
+						"project": "UI Kit",
+						"description": "Figma-Designs in eine wiederverwendbare React-Komponentenbibliothek umgewandelt, ein CLI-Tool für einfachere Komponentenintegration eingeführt und die Dokumentation mit Storybook organisiert. Bereitstellung wiederverwendbarer React-Komponenten für Extranet, Intranet und weitere Abteilungsprojekte, konsistente Implementierung des neuen UI Kits in B2B-Anwendungen und deutliche Verbesserung der Effizienz von Design zu Code. Förderung der teamübergreifenden Einführung durch Workshops und technische Anleitung."
+					},
+					"2": {
+						"project": "E-Mail-Vorlage",
+						"description": "Entwicklung und Einführung eines standardisierten E-Mail-Vorlagensystems, Automatisierung von Deployments und Steigerung der Konsistenz. Zusammenarbeit mit Produkt- und Designteams, um sicherzustellen, dass die Vorlagen den Marken- und Usability-Standards entsprechen."
+					},
+					"3": {
+						"project": "Extranet & Intranet",
+						"description": "Verbesserung von Legacy-Extranet- und Intranet-Anwendungen, Reduzierung von technischer Schulden im Rahmen der laufenden Modernisierung. Fehlerbehebung im Legacy-Freemarker-Code und Wartung von Java-Controllern. Modernisierte Versionen durch Neuentwicklung des Frontends mit React und Integration mit einem Java Spring Boot-Backend über REST-APIs, deutliche Verbesserung der Zuverlässigkeit und Wartbarkeit."
+					},
+					"4": {
+						"project": "Digital Contract",
+						"description": "Start des Digital Contract-Projekts als alleiniger Frontend-Entwickler, Ermöglichung der Digitalisierung von Vertragsdaten und deren Nachverfolgung über mehrere Abteilungen hinweg. Zusammenarbeit mit Endnutzern zur Bereitstellung von Lösungen, unternehmensweite Anerkennung für den Impact erhalten."
+					}
+				}
+			},
+			"1pixel": {
+				"company": "1Pixel Digitalagentur",
+				"location": "Izmir, Türkei",
+				"title": "Frontend-Entwicklungspraktikant",
+				"period": { "start": "Oktober 2021", "end": "November 2021" },
+				"description": "Entwicklung von responsiven, hochwertigen Seitenabschnitten aus Grafikdesigns in einem agilen, Jira-gesteuerten Workflow.",
+				"role": {
+					"1": {
+						"project": "Shopify-Vorlagen",
+						"description": "Erstellung anpassbarer Shopify-Themes mit CMS-Steuerungen und Integration dynamischer Shopdaten mittels Liquid-Templating zur Erhöhung der Kundenflexibilität."
+					}
+				}
+			}
+		}
+	},
+	"education": {
+		"title": "Ausbildung & Kurse",
+		"1": {
+			"institution": "Ege Universität",
+			"field": "B.A. in Englischer Sprache und Literatur",
+			"period": "2022"
+		},
+		"2": {
+			"institution": "Academy Peak",
+			"field": "Sichere Softwareentwicklung bei Ömer Çıtak",
+			"period": "16.-18. März 2023"
+		}
+	},
+	"reference": {
+		"title": "Referenzen",
+		"1": {
+			"name": "Alper Derya",
+			"title": "Leiter Softwareentwicklung",
+			"phone": "+90 533 210 80 28",
+			"email": "alper.derya@gmail.com",
+			"company": "Etstur"
+		},
+		"2": {
+			"name": "Uğur Yılmaz",
+			"title": "Frontend-Teamleiter",
+			"phone": "+90 545 551 19 93",
+			"email": "ugrr.yilmaz@gmail.com",
+			"company": "Turkcell (ehemals Etstur)"
+		}
+	}
+}

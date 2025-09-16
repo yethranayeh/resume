@@ -13,7 +13,7 @@ export const Resume = () => {
 	return (
 		<>
 			<FirstPage />
-			<SecondPage />
+			{/* <SecondPage /> */}
 		</>
 	);
 };

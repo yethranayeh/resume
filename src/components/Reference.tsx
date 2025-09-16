@@ -15,13 +15,7 @@ export const Reference = (ref: Props) => (
 			{ref.title}
 			<span className='text-medium'>{ref.company && ` - ${ref.company}`}</span>
 		</p>
-		<a href={`tel:${ref.phone}`}>
-			<i className='fa fa-phone'></i>
-			{ref.phone}
-		</a>
-		<a href={`mailto:${ref.email}`}>
-			<i className='fa fa-envelope'></i>
-			{ref.email}
-		</a>
+		<a href={`tel:${ref.phone}`}>{ref.phone}</a>
+		<a href={`mailto:${ref.email}`}>{ref.email}</a>
 	</div>
 );

@@ -1,19 +1,17 @@
-import { PropsWithChildren } from "preact/compat";
-
+import { useTranslation } from "react-i18next";
 import styles from "./Project.module.scss";
 
-interface Props extends PropsWithChildren {
+interface Props {
 	title: string;
 	description: string;
 }
 
-export const Project = ({ title, description, children }: Props) => (
-	<div className={styles.projectContainer}>
-		<h4 className='text-medium '>{title}</h4>
-		<p>{description}</p>
-		<div className={styles.stackContainer}>
-			<ul className={styles.techStack}>{children}</ul>
-			<i className='fa fa-code'></i>
-		</div>
-	</div>
-);
+export function Project({ title, description }: Props) {
+	const { t } = useTranslation("resume", { keyPrefix: "experience" });
+
+	return (
+		<li className={styles.li}>
+			<span className='text-medium'>{title}</span>: {description}
+		</li>
+	);
+}

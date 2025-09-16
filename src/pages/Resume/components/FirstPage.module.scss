@@ -1,42 +1,5 @@
 @import "../../../variables.scss";
 
-.vocation {
-	$line-gap: 2mm;
-	$border-radius: 1mm;
-
-	display: inline-flex;
-	align-items: center;
-	white-space: nowrap;
-
-	&::before,
-	&::after {
-		content: "";
-		height: 0.2cm;
-		background-color: $primary;
-	}
-
-	&::before {
-		width: 2cm;
-		margin-right: $line-gap;
-		border-top-right-radius: $border-radius;
-		border-bottom-right-radius: $border-radius;
-	}
-
-	&::after {
-		width: 20cm;
-		margin-left: $line-gap;
-		border-top-left-radius: $border-radius;
-		border-bottom-left-radius: $border-radius;
-	}
-}
-
-.summary {
-	padding: $spacing-2;
-	line-height: 5mm;
-	word-spacing: 0.5mm;
-	letter-spacing: 0.1mm;
-}
-
 .printHack {
 	// I hate myself for doing this, but it turns out making A4 Print compatible HTML pages is really, really hard... At least for me, at this point in time.
 	&::after {

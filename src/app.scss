@@ -66,6 +66,36 @@ p {
 	font-style: normal;
 }
 
+.header {
+	$line-gap: 2mm;
+	$border-radius: 1mm;
+
+	display: inline-flex;
+	align-items: center;
+	white-space: nowrap;
+
+	&::before,
+	&::after {
+		content: "";
+		height: 0.2cm;
+		background-color: $primary;
+	}
+
+	&::before {
+		width: 2cm;
+		margin-right: $line-gap;
+		border-top-right-radius: $border-radius;
+		border-bottom-right-radius: $border-radius;
+	}
+
+	&::after {
+		width: 20cm;
+		margin-left: $line-gap;
+		border-top-left-radius: $border-radius;
+		border-bottom-left-radius: $border-radius;
+	}
+}
+
 .lower-grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;

@@ -1,27 +1,49 @@
 @import "../variables.scss";
 
+$header-size: 7mm;
+
 .header {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-between;
-	align-items: flex-end;
+	align-items: flex-start;
 	padding: $spacing-2;
+	gap: $spacing-2;
 }
 
 .name {
 	text-transform: uppercase;
-	font-size: 1.5cm;
-	line-height: 1.2cm;
-	word-spacing: 100cm;
+	font-size: $header-size;
 }
 
 .info {
-	display: flex;
-	flex-direction: column;
-	gap: 2mm;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	gap: $spacing $spacing-3;
+	grid-auto-flow: row;
+	grid-template-areas:
+		". . ."
+		". . .";
 
 	& li {
-		display: flex;
-		gap: 2mm;
+		padding-right: 3mm;
 	}
+	& li:not(:last-of-type):not(:nth-of-type(3)) {
+		border-right: 1px solid $primary;
+	}
+}
+
+.summary {
+	line-height: 5mm;
+	word-spacing: 0.1mm;
+	letter-spacing: 0.1mm;
+}
+
+.personal {
+	font-size: calc($header-size * 0.6);
+}
+
+.links {
+	font-size: calc($header-size * 0.52);
 }

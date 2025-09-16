@@ -3,7 +3,6 @@ import { useTranslation } from "react-i18next";
 import { Experience } from "../../../components/Experience/Experience";
 import { ResumeSection } from "../../../components/Section";
 import { Project } from "../../../components/Experience/Project";
-import { Tech } from "../../../components/Tech";
 
 type CutoffPoint = {
 	companyIndex?: number;
@@ -16,37 +15,46 @@ interface Props {
 
 const companies = [
 	{
-		name: "ets",
-		projects: [
-			{ role: "1", tech: ["Storybook", "React", "MUI", "yarn", "Jenkins", "ink", "inquirer"] },
-			{ role: "2", tech: ["Mandrill", "mjml-react", "react-email", "node.js", "Jenkins"] },
-			{ role: "3", tech: ["JavaScript", "FTL", "JSTL", "JSP", "Java"] },
-			{ role: "4", tech: ["TypeScript", "React", "RTK", "Vite", "Vitest", "CASL"] },
-			{ role: "5", tech: ["TypeScript", "React", "RTK", "Vite", "CASL"] }
-		]
+		name: "ets" as const,
+		skills: [
+			"React",
+			"TypeScript (ES6+)",
+			"MUI",
+			"Redux Toolkit",
+			"Vite",
+			"Storybook",
+			"react-email",
+			"Node.js",
+			// "Java",
+			"CI/CD (Jenkins)"
+		],
+		projects: [1, 2, 3, 4]
 	},
-	{ isPromoted: false, name: "1pixel", projects: [{ role: "1", tech: ["HTML", "CSS", "Liquid", "Shopify Templates"] }] }
-] as const;
+	{
+		name: "1pixel" as const,
+		skills: ["HTML", "CSS", "Liquid", "Shopify Templates"],
+		projects: [1]
+	}
+];
 
 export function ExperienceContent({ hideTitle, cutoffPoint }: Props) {
-	const { t } = useTranslation(undefined, { keyPrefix: "experience" });
+	const { t } = useTranslation("resume", { keyPrefix: "experience" });
 
 	return (
 		<ResumeSection hideTitle={hideTitle} title={t("title")}>
-			{companies.slice(cutoffPoint?.companyIndex).map(({ name, projects }) => (
-				<Experience key={name} company={name}>
-					{projects.slice(cutoffPoint?.projectIndex).map((project) => (
-						<Project
-							key={project.role}
-							// @ts-expect-error
-							title={t(`companies.${name}.role.${project.role}.project`)}
-							// @ts-expect-error
-							description={t(`companies.${name}.role.${project.role}.description`)}>
-							{project.tech.map((t) => (
-								<Tech key={t}>{t}</Tech>
-							))}
-						</Project>
-					))}
+			{companies.slice(cutoffPoint?.companyIndex).map(({ name, skills, projects }) => (
+				<Experience key={name} company={name} skills={skills}>
+					<ul style={{ paddingLeft: "1cm", display: "flex", flexDirection: "column", gap: "2mm" }}>
+						{projects.slice(cutoffPoint?.projectIndex).map((project) => (
+							<Project
+								key={project}
+								// @ts-expect-error
+								title={t(`companies.${name}.role.${project}.project`)}
+								// @ts-expect-error
+								description={t(`companies.${name}.role.${project}.description`)}
+							/>
+						))}
+					</ul>
 				</Experience>
 			))}
 		</ResumeSection>

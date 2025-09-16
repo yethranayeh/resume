@@ -8,32 +8,16 @@ export function ResumeHeader() {
 		<header className={styles.header}>
 			<h1 className={`${styles.name} text-black`}>{t("name")}</h1>
 
-			<aside>
-				<ul className={styles.info}>
-					<li>
-						<i className='fa fa-envelope'></i>
-						<a href='mailto:aktasalper99@gmail.com' translate={false}>
-							aktasalper99@gmail.com
-						</a>
-					</li>
-					<li>
-						<i className='fa fa-linkedin'></i>
-						<a href='https://www.linkedin.com/in/aktasalper/' target='_blank'>
-							/aktasalper/
-						</a>
-					</li>
-					<li>
-						<i className='fa fa-link'></i>
-						<a href='https://www.aktasalper.com/' target='_blank'>
-							aktasalper.com
-						</a>
-					</li>
-					<li>
-						<i className='fa fa-location-arrow'></i>
-						<span>{t("location")}</span>
-					</li>
-				</ul>
-			</aside>
+			<ul className={styles.info}>
+				<li>{t("location")}</li>
+				<li>aktasalper99@gmail.com</li>
+				<li>+49 157 76506059</li>
+				<li>linkedin.com/in/aktasalper</li>
+				<li>github.com/yethranayeh</li>
+				<li>aktasalper.com</li>
+			</ul>
+
+			<article className={styles.summary}>{t("summary")}</article>
 		</header>
 	);
 }

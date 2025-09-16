@@ -1,48 +1,42 @@
 {
 	"header": {
 		"name": "Alper Halil",
-		"title": "Software Developer",
-		"phone": "+90 534 621 81 05",
-		"mail": "aktasalper99@gmail.com",
-		"linkedIn": "https://www.linkedin.com/in/aktasalper/",
-		"portfolio": "https://www.aktasalper.com/",
-		"location": "Schongau, Bavaria, Germany"
+		"location": "Schongau, Bavaria, Germany",
+		"summary": "Software developer with 3+ years of experience building scalable, maintainable web applications. Skilled in TypeScript, React, and modern UI patterns, with a proven record of elevating code quality, streamlining workflows, and enhancing user experience across diverse frontend stacks."
 	},
 	"experience": {
 		"title": "Experience",
-		"summary": "Frontend developer with 3+ years of experience building scalable, maintainable web applications. Skilled in TypeScript, React, and modern UI patterns, with a proven record of elevating code quality, streamlining workflows, and enhancing user experience across diverse frontend stacks.",
 		"present": "Present",
+		"skills": "Skills",
 		"companies": {
 			"ets": {
 				"company": "Etstur",
+				"location": "Istanbul, Turkey",
 				"title": "Software Developer",
 				"period": { "start": "July 2022", "end": "August 2025" },
-				"description": "Modernized B2B web applications with React. Led the Digital Contract project as sole front-end developer, rebuilt the etspartners.com dashboard with a modern React stack, and later led the development of a new B2B UI Kit library based on Figma standards, enabling consistent UI implementation and reducing design-to-code effort.",
+				"description": "Modernized B2B web applications with React in an Agile, cross-functional environment. Led the Digital Contract project as sole front-end developer, rebuilt legacy B2B apps with a modern React stack, and later led the development of a new B2B UI component library based on UI/UX team standards, enabling consistent UI implementation and significantly reducing the effort transform design into code. In addition, acted as a frontend representative in company's DevOps meetings.",
 				"role": {
 					"1": {
 						"project": "UI Kit",
-						"description": "Transformed Figma designs into a reusable React UI Kit, introducing a CLI tool for easier component integration and establishing a monorepo structure for maintainability. Providing reusable React components for Extranet, Intranet, and two additional departmental projects, enabling consistent implementation of the new UI Kit across B2B applications and cutting down the effort required to convert new designs into code."
+						"description": "Transformed Figma designs into a reusable React component library, introducing a CLI tool for easier component integration and organizing documentation with Storybook. Provided reusable React components for Extranet, Intranet, and additional departmental projects, enabling consistent implementation of the new UI Kit across B2B applications and significantly improving design-to-code efficiency. Facilitated cross-team adoption through collaborative workshops and technical guidance."
 					},
 					"2": {
 						"project": "E-mail Template",
-						"description": "Devised and launched a standardized email template system, automating deployments and enhancing communication consistency."
+						"description": "Devised and launched a standardized email template system, automating deployments and enhancing consistency. Coordinated with product and design teams to ensure templates met branding and usability standards."
 					},
 					"3": {
 						"project": "Extranet & Intranet",
-						"description": "Improved legacy Extranet and Intranet applications, significantly increasing performance and reducing technical debt as part of ongoing modernization."
+						"description": "Improved legacy Extranet and Intranet applications, reducing technical debt as part of ongoing modernization. Fixed bugs on legacy Freemarker code and maintained Java controllers. Built modernized versions by rewriting the frontend in React and integrating with a Java Spring Boot backend through REST APIs, significantly improving reliability and maintainability."
 					},
 					"4": {
 						"project": "Digital Contract",
-						"description": "Started the Digital Contract project as a solo front-end developer, enabling Etstur's contract team to digitalize contract data and track its flow across multiple departments within the company, earning internal recognition for innovation."
-					},
-					"5": {
-						"project": "etspartners.com",
-						"description": "Modernized the old Extranet by rewriting the frontend in React and integrating with a Java Spring Boot backend, improving reliability and maintainability."
+						"description": "Started the Digital Contract project as a solo front-end developer, enabling Etstur's contract team to digitalize contract data and track its flow across multiple departments. Collaborated with end-users to deliver solutions, earning compnay-wide internal recognition for impact."
 					}
 				}
 			},
 			"1pixel": {
 				"company": "1Pixel Digital Agency",
+				"location": "Izmir, Turkey",
 				"title": "Front-End Development Intern",
 				"period": { "start": "October 2021", "end": "November 2021" },
 				"description": "Delivered responsive, high-quality page sections from graphic designs within an agile, Jira-managed workflow.",
@@ -56,21 +50,16 @@
 		}
 	},
 	"education": {
-		"title": "Education & Languages",
+		"title": "Education & Courses",
 		"1": {
 			"institution": "Ege University",
-			"field": "English Language and Literature",
-			"period": "2017 - 2022"
+			"field": "B.A. in English Language and Literature",
+			"period": "2022"
 		},
 		"2": {
 			"institution": "Academy Peak",
-			"instructor": "Ömer Çıtak",
-			"field": "Secure Software Development",
+			"field": "Secure Software Development by Ömer Çıtak",
 			"period": "16-18 March, 2023"
-		},
-		"language": {
-			"1": { "name": "English", "fluency": "C1 (Aptis Certified)" },
-			"2": { "name": "Turkish", "fluency": "Native" }
 		}
 	},
 	"reference": {

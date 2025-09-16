@@ -1,98 +1,66 @@
 {
 	"header": {
-		"name": "Alper Aktaş",
-		"title": "Yazılım Geliştirici",
-		"phone": "+90 534 621 81 05",
-		"mail": "aktasalper99@gmail.com",
-		"linkedIn": "https://www.linkedin.com/in/aktasalper/",
-		"portfolio": "https://www.aktasalper.com/",
-		"location": "Avcılar, İstanbul"
+		"name": "Alper Halil",
+		"location": "Schongau, Bavyera, Almanya",
+		"summary": "3+ yıllık deneyime sahip, ölçeklenebilir ve sürdürülebilir web uygulamaları geliştiren yazılım geliştirici. TypeScript, React ve modern UI desenlerinde yetkin, kod kalitesini artırma, iş akışlarını iyileştirme ve kullanıcı deneyimini geliştirme konusunda kanıtlanmış bir geçmişe sahip."
 	},
 	"experience": {
 		"title": "Deneyim",
-		"summary": "3+ yıllık deneyime sahip frontend geliştirici. Ölçeklenebilir ve sürdürülebilir web uygulamaları sunma konusunda yetkin. TypeScript ve React konusunda güçlü bir temele sahip; modern UI desenleri, bileşen odaklı geliştirme ve duyarlı tasarımda uzman. Redux Toolkit, MUI ve Storybook gibi araçlar konusunda derin bilgi sahibi.",
 		"present": "Günümüz",
+		"skills": "Yetenekler",
 		"companies": {
-			"ets-2": {
-				"company": "Etstur",
-				"title": "Yazılım Geliştirici",
-				"period": { "start": "Mayıs 2025", "end": "Ağustos 2025" },
-				"description": "UI Kit projesinin yazılım geliştirme sürecine liderlik etti ve yan proje olarak bir Yapay Zeka Form Aracısı geliştirdi.",
-				"role": {
-					"1": {
-						"project": "Form Agent",
-						"description": "Yıllık performans değerlendirmesi için seçilen bir yan projeydi. Gemini ile basit bir POC geliştirildi."
-					},
-					"2": {
-						"project": "UI Kit",
-						"description": "Extranet, Intranet ve iki ek departman projesi için tekrar kullanılabilir React bileşenleri sağlayan B2B UI Kit kütüphanesinin geliştirilmesine liderlik etti."
-					}
-				}
-			},
 			"ets": {
 				"company": "Etstur",
-				"title": "Junior Yazılım Geliştirici",
-				"period": { "start": "25 Temmuz 2022", "end": "Mayıs 2025" },
-				"description": "Şirketin ilk React tabanlı B2B web uygulamalarının geliştirilmesine katıldı. UI/UX tasarımcılarıyla Figma üzerinden iş birliği yaptı ve Jira ile yürütülen çevik süreçlerde çeşitli projelere katkıda bulundu, bilgi paylaşımı için dökümantasyon oluşturdu.",
+				"location": "İstanbul, Türkiye",
+				"title": "Yazılım Geliştirici",
+				"period": { "start": "Temmuz 2022", "end": "Ağustos 2025" },
+				"description": "Agile ve çapraz fonksiyonlu bir ortamda React ile B2B web uygulamalarını modernleştirdim. Dijital Sözleşme projesini tek başıma ön yüz geliştiricisi olarak yönettim, eski B2B uygulamaları modern React teknolojileriyle yeniden inşa ettim ve UI/UX ekip standartlarına dayalı yeni bir B2B UI bileşen kütüphanesinin geliştirilmesine liderlik ettim. Tutarlı UI uygulaması sağladım ve tasarımdan koda dönüşüm sürecini önemli ölçüde hızlandırdım. Ayrıca şirketin DevOps toplantılarında ön yüz temsilcisi olarak görev aldım.",
 				"role": {
 					"1": {
 						"project": "UI Kit",
-						"description": "UI Kit projesini kavramsallaştırdı ve inşa etti; Figma tasarımlarını React bileşen kütüphanesine dönüştürdü. Mevcut projelere bileşen bazlı import yapılabilmesini sağlayan bir CLI aracı geliştirdi ve projeyi Yarn workspaces kullanarak monorepo olarak yapılandırdı."
+						"description": "Figma tasarımlarını yeniden kullanılabilir bir React bileşen kütüphanesine dönüştürdüm, bileşen entegrasyonunu kolaylaştıran bir CLI aracı geliştirdim ve Storybook ile dokümantasyonu organize ettim. Extranet, Intranet ve diğer departman projeleri için yeniden kullanılabilir React bileşenleri sağladım, yeni UI Kit'in B2B uygulamalarında tutarlı şekilde uygulanmasını sağladım ve tasarımdan koda verimliliği önemli ölçüde artırdım. Teknik rehberlik ve işbirlikçi atölyelerle ekipler arası benimsemeyi kolaylaştırdım."
 					},
 					"2": {
 						"project": "E-posta Şablonu",
-						"description": "Mandrill ile entegre standart bir e-posta şablon sistemi oluşturdu, dağıtımları özel bir CLI betiği ile otomatikleştirdi. Başlangıçta 'mjml-react' kullanıldı, ardından sürdürülebilirlik ve kullanılabilirliği artırmak için 'react-email'e geçildi."
+						"description": "Standart bir e-posta şablon sistemi geliştirdim, dağıtımları otomatikleştirdim ve tutarlılığı artırdım. Ürün ve tasarım ekipleriyle koordineli çalışarak şablonların marka ve kullanılabilirlik standartlarına uygun olmasını sağladım."
 					},
 					"3": {
 						"project": "Extranet & Intranet",
-						"description": "Modernizasyon sürecinin bir parçası olarak eski Extranet ve Intranet uygulamalarını güncelledi ve bakımını sağladı."
+						"description": "Eski Extranet ve Intranet uygulamalarını iyileştirdim, teknik borcu azalttım ve modernizasyon sürecine katkı sağladım. Eski Freemarker kodunda hataları düzelttim ve Java controller'larını yönettim. Ön yüzü React ile yeniden yazarak ve Java Spring Boot backend ile REST API üzerinden entegre ederek modernleştirilmiş versiyonlar oluşturdum, güvenilirlik ve sürdürülebilirliği önemli ölçüde artırdım."
 					},
 					"4": {
 						"project": "Dijital Sözleşme",
-						"description": "Başından itibaren tek frontend geliştirici olarak Dijital Sözleşme projesine sahip çıktı; tatil otellerinin sözleşme detaylarını ve belgelerini yönetmelerini sağladı. Etstur’un Aylık Teknoloji Bülteni'nde 'Ayın Ürünü' seçildi ve yayından sonra yeni frontend ekibine destek sağladı."
-					},
-					"5": {
-						"project": "B2B Şablon Projesi",
-						"description": "Yeni projelerin kurulumunu hızlandırmak amacıyla teknoloji seçimi, kodlama standartları ve proje yapısını belirleyerek tekrar kullanılabilir bir B2B React şablon projesi geliştirdi."
-					},
-					"6": {
-						"project": "etspartners.com",
-						"description": "Etstur’un B2B paneli olan etspartners.com’un modernizasyonuna katkı sağladı; frontend’i React ile yeniden yazdı ve Java Spring Boot backend ile entegre etti. Dijital Sözleşme projesi dışındaki zamanlarda geliştirme, bakım ve hata ayıklama süreçlerine katıldı."
+						"description": "Dijital Sözleşme projesini tek başıma ön yüz geliştiricisi olarak başlattım, Etstur'un sözleşme ekibinin sözleşme verilerini dijitalleştirmesini ve şirket içinde birden fazla departman arasında akışını takip etmesini sağladım. Son kullanıcılara çözümler sunmak için işbirliği yaptım ve şirket çapında içsel takdir kazandım."
 					}
 				}
 			},
 			"1pixel": {
-				"company": "1Pixel Dijital Ajansı",
-				"title": "Frontend Geliştirme Stajyeri",
+				"company": "1Pixel Dijital Ajans",
+				"location": "İzmir, Türkiye",
+				"title": "Ön Yüz Geliştirme Stajyeri",
 				"period": { "start": "Ekim 2021", "end": "Kasım 2021" },
-				"description": "Jira ile yönetilen çevik süreçler dahilinde grafik tasarımlara dayalı, duyarlı ve işlevsel sayfa bölümleri uyguladı.",
+				"description": "Agile ve Jira ile yönetilen bir iş akışında grafik tasarımlardan duyarlı ve yüksek kaliteli sayfa bölümleri geliştirdim.",
 				"role": {
 					"1": {
 						"project": "Shopify Şablonları",
-						"description": "CMS kontrolleri olan özelleştirilebilir Shopify temaları geliştirdi ve Liquid şablonlama diliyle dinamik mağaza verilerini entegre etti."
+						"description": "Müşteri esnekliğini artırmak için CMS kontrolleriyle özelleştirilebilir Shopify temaları oluşturdum ve dinamik mağaza verilerini Liquid şablonlama ile entegre ettim."
 					}
 				}
 			}
 		}
 	},
 	"education": {
-		"title": "Eğitim",
+		"title": "Eğitim & Kurslar",
 		"1": {
 			"institution": "Ege Üniversitesi",
-			"field": "İngiliz Dili ve Edebiyatı",
-			"period": "2017 - 2022"
+			"field": "İngiliz Dili ve Edebiyatı Lisans",
+			"period": "2022"
 		},
 		"2": {
 			"institution": "Academy Peak",
-			"instructor": "Ömer Çıtak",
-			"field": "Güvenli Yazılım Geliştirme",
-			"period": "16-18 Mart 2023"
+			"field": "Ömer Çıtak ile Güvenli Yazılım Geliştirme",
+			"period": "16-18 Mart, 2023"
 		}
-	},
-	"language": {
-		"title": "Diller",
-		"1": { "name": "İngilizce", "fluency": "Aptis C1" },
-		"2": { "name": "Türkçe", "fluency": "Ana Dil" }
 	},
 	"reference": {
 		"title": "Referanslar",
@@ -105,10 +73,10 @@
 		},
 		"2": {
 			"name": "Uğur Yılmaz",
-			"title": "Frontend Takım Lideri",
+			"title": "Ön Yüz Takım Lideri",
 			"phone": "+90 545 551 19 93",
 			"email": "ugrr.yilmaz@gmail.com",
-			"company": "Etstur"
+			"company": "Turkcell (Eski Etstur)"
 		}
 	}
 }

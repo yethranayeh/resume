@@ -2,41 +2,33 @@
 
 .container {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	gap: $spacing-2;
 }
 
-.companyInfoContainer {
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.headerCol {
 	display: flex;
 	flex-direction: column;
 	gap: $spacing;
-
-	min-width: 4cm;
-	max-width: 4cm;
 }
 
 .company {
 	font-weight: 900;
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 }
 
 .periodContainer {
 	display: flex;
-	flex-direction: column;
+	gap: $spacing;
 }
 
-.experienceInfoContainer {
-	display: flex;
-	flex-direction: column;
-	gap: $spacing-3;
-}
-
-.experience {
-	font-weight: 700;
-	font-size: 1.2rem;
-}
-
-.experienceSummary {
+.info {
 	display: flex;
 	flex-direction: column;
 	gap: $spacing;

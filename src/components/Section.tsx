@@ -8,11 +8,7 @@ export const ResumeSection = ({
 	...props
 }: HTMLProps<HTMLElement> & { hideTitle?: boolean }) => (
 	<section {...props} className={styles.section}>
-		{!hideTitle && (
-			<div className={styles.titleContainer}>
-				<h2 className={styles.title}>{title}</h2>
-			</div>
-		)}
+		{!hideTitle && <h2 className='header'>{title}</h2>}
 
 		<article className={styles.content}>{children}</article>
 	</section>

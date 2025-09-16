@@ -1,20 +1,5 @@
 @import "../../variables.scss";
 
-.projectContainer {
-	display: flex;
-	flex-direction: column;
-	gap: $spacing;
-}
-
-.stackContainer {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	gap: $spacing;
-}
-
-.techStack {
-	display: flex;
-	flex-direction: row;
-	gap: $spacing;
+.li {
+	list-style: disc;
 }

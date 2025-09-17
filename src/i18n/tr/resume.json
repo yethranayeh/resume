@@ -6,7 +6,7 @@
 	},
 	"experience": {
 		"title": "Deneyim",
-		"present": "Günümüz",
+		"present": "Devam Ediyor",
 		"skills": "Yetenekler",
 		"companies": {
 			"ets": {
@@ -14,28 +14,28 @@
 				"location": "İstanbul, Türkiye",
 				"title": "Yazılım Geliştirici",
 				"period": { "start": "Temmuz 2022", "end": "Ağustos 2025" },
-				"description": "Agile ve çapraz fonksiyonlu bir ortamda React ile B2B web uygulamalarını modernleştirdim. Dijital Sözleşme projesini tek başıma ön yüz geliştiricisi olarak yönettim, eski B2B uygulamaları modern React teknolojileriyle yeniden inşa ettim ve UI/UX ekip standartlarına dayalı yeni bir B2B UI bileşen kütüphanesinin geliştirilmesine liderlik ettim. Tutarlı UI uygulaması sağladım ve tasarımdan koda dönüşüm sürecini önemli ölçüde hızlandırdım. Ayrıca şirketin DevOps toplantılarında ön yüz temsilcisi olarak görev aldım.",
+				"description": "Agile ve çapraz fonksiyonlu bir ortamda React ile B2B web uygulamalarını modernleştirdim. Dijital Kontrat projesini tek başıma ön yüz geliştiricisi olarak yönettim, eski B2B uygulamaları modern React teknolojileriyle yeniden inşa ettim ve UI/UX ekip standartlarına dayalı yeni bir B2B UI bileşen kütüphanesinin geliştirilmesine liderlik ettim. Tutarlı UI uygulaması sağladım ve tasarımdan koda dönüşüm sürecini önemli ölçüde hızlandırdım. Ayrıca şirketin DevOps toplantılarında ön yüz temsilcisi olarak görev aldım.",
 				"role": {
 					"1": {
 						"project": "UI Kit",
 						"description": "Figma tasarımlarını yeniden kullanılabilir bir React bileşen kütüphanesine dönüştürdüm, bileşen entegrasyonunu kolaylaştıran bir CLI aracı geliştirdim ve Storybook ile dokümantasyonu organize ettim. Extranet, Intranet ve diğer departman projeleri için yeniden kullanılabilir React bileşenleri sağladım, yeni UI Kit'in B2B uygulamalarında tutarlı şekilde uygulanmasını sağladım ve tasarımdan koda verimliliği önemli ölçüde artırdım. Teknik rehberlik ve işbirlikçi atölyelerle ekipler arası benimsemeyi kolaylaştırdım."
 					},
 					"2": {
-						"project": "E-posta Şablonu",
-						"description": "Standart bir e-posta şablon sistemi geliştirdim, dağıtımları otomatikleştirdim ve tutarlılığı artırdım. Ürün ve tasarım ekipleriyle koordineli çalışarak şablonların marka ve kullanılabilirlik standartlarına uygun olmasını sağladım."
+						"project": "E-mail Templates",
+						"description": "Standart bir e-posta template sistemi geliştirdim, dağıtımları otomatikleştirdim ve tutarlılığı artırdım. Ürün ve tasarım ekipleriyle koordineli çalışarak şablonların marka ve kullanılabilirlik standartlarına uygun olmasını sağladım."
 					},
 					"3": {
 						"project": "Extranet & Intranet",
 						"description": "Eski Extranet ve Intranet uygulamalarını iyileştirdim, teknik borcu azalttım ve modernizasyon sürecine katkı sağladım. Eski Freemarker kodunda hataları düzelttim ve Java controller'larını yönettim. Ön yüzü React ile yeniden yazarak ve Java Spring Boot backend ile REST API üzerinden entegre ederek modernleştirilmiş versiyonlar oluşturdum, güvenilirlik ve sürdürülebilirliği önemli ölçüde artırdım."
 					},
 					"4": {
-						"project": "Dijital Sözleşme",
-						"description": "Dijital Sözleşme projesini tek başıma ön yüz geliştiricisi olarak başlattım, Etstur'un sözleşme ekibinin sözleşme verilerini dijitalleştirmesini ve şirket içinde birden fazla departman arasında akışını takip etmesini sağladım. Son kullanıcılara çözümler sunmak için işbirliği yaptım ve şirket çapında içsel takdir kazandım."
+						"project": "Dijital Kontrat",
+						"description": "Dijital Kontrat projesini tek frontend developer olarak ilerlettim, Etstur'un kontrat ekibinin kontrat verilerini dijitalleştirmesini ve şirket içinde birden fazla departman arasında akışını takip etmesini sağladım. Son kullanıcılara çözümler sunmak için işbirliği yaptım ve projenin şirket çapında takdir kazanmasında rol aldım."
 					}
 				}
 			},
 			"1pixel": {
-				"company": "1Pixel Dijital Ajans",
+				"company": "1Pixel Digital Agency",
 				"location": "İzmir, Türkiye",
 				"title": "Ön Yüz Geliştirme Stajyeri",
 				"period": { "start": "Ekim 2021", "end": "Kasım 2021" },
@@ -76,7 +76,7 @@
 			"title": "Ön Yüz Takım Lideri",
 			"phone": "+90 545 551 19 93",
 			"email": "ugrr.yilmaz@gmail.com",
-			"company": "Turkcell (Eski Etstur)"
+			"company": "Turkcell (Ex-Etstur)"
 		}
 	}
 }

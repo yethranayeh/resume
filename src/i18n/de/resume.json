@@ -21,7 +21,7 @@
 						"description": "Figma-Designs in eine wiederverwendbare React-Komponentenbibliothek umgewandelt, ein CLI-Tool für einfachere Komponentenintegration eingeführt und die Dokumentation mit Storybook organisiert. Bereitstellung wiederverwendbarer React-Komponenten für Extranet, Intranet und weitere Abteilungsprojekte, konsistente Implementierung des neuen UI Kits in B2B-Anwendungen und deutliche Verbesserung der Effizienz von Design zu Code. Förderung der teamübergreifenden Einführung durch Workshops und technische Anleitung."
 					},
 					"2": {
-						"project": "E-Mail-Vorlage",
+						"project": "E-Mail Templates",
 						"description": "Entwicklung und Einführung eines standardisierten E-Mail-Vorlagensystems, Automatisierung von Deployments und Steigerung der Konsistenz. Zusammenarbeit mit Produkt- und Designteams, um sicherzustellen, dass die Vorlagen den Marken- und Usability-Standards entsprechen."
 					},
 					"3": {
@@ -35,7 +35,7 @@
 				}
 			},
 			"1pixel": {
-				"company": "1Pixel Digitalagentur",
+				"company": "1Pixel Digital Agency",
 				"location": "Izmir, Türkei",
 				"title": "Frontend-Entwicklungspraktikant",
 				"period": { "start": "Oktober 2021", "end": "November 2021" },

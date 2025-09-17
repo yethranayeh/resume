@@ -1,4 +1,4 @@
-const isLanguageValid = (languageKey: string) => languageKey === "en" || languageKey === "tr";
+const isLanguageValid = (languageKey: string) => languageKey === "en" || languageKey == "de" || languageKey === "tr";
 
 export function parseLanguageFromLocation(location: string) {
 	const pathSegments = location.split("/").filter(Boolean);

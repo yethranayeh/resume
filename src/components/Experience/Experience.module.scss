@@ -1,9 +1,9 @@
-@import "../../variables.scss";
+@use "../../variables.scss";
 
 .container {
 	display: flex;
 	flex-direction: column;
-	gap: $spacing-2;
+	gap: variables.$spacing-2;
 }
 
 .header {
@@ -15,7 +15,7 @@
 .headerCol {
 	display: flex;
 	flex-direction: column;
-	gap: $spacing;
+	gap: variables.$spacing;
 }
 
 .company {
@@ -25,11 +25,11 @@
 
 .periodContainer {
 	display: flex;
-	gap: $spacing;
+	gap: variables.$spacing;
 }
 
 .info {
 	display: flex;
 	flex-direction: column;
-	gap: $spacing;
+	gap: variables.$spacing;
 }

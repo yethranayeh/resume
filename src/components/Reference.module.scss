@@ -1,9 +1,9 @@
-@import "../variables.scss";
+@use "../variables.scss";
 
 .container {
 	display: flex;
 	flex-direction: column;
-	gap: $spacing-half;
+	gap: variables.$spacing-half;
 
 	& i {
 		margin-right: 1mm;

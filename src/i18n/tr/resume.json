@@ -1,0 +1,109 @@
+{
+	"header": {
+		"name": "Alper Halil",
+		"location": "Würzburg, Bavyera, Almanya",
+		"summary": "3+ yıllık deneyime sahip, ölçeklenebilir ve sürdürülebilir web uygulamaları geliştiren yazılım geliştirici. TypeScript, React ve modern UI desenlerinde yetkin, kod kalitesini artırma, iş akışlarını iyileştirme ve kullanıcı deneyimini geliştirme konusunda kanıtlanmış bir geçmişe sahip."
+	},
+	"experience": {
+		"title": "Deneyim",
+		"present": "Devam Ediyor",
+		"skills": "Yetenekler",
+		"companies": {
+			"schraubenhandel": {
+				"company": "Schraubenhandel Machholz Nchfg. GmbH",
+				"location": "Würzburg, Bavyera, Almanya",
+				"title": "IT Departmanı",
+				"period": { "start": "Ekim 2025", "end": "" },
+				"description": "IT departmanında ağırlıklı olarak yazılım geliştirmeye odaklanarak çalışmakta, Next.js tabanlı çalışan portalı ve yapay zeka destekli e-posta eklentilerinden arama motorlarına, izleme altyapılarına ve özel ajan bazlı yapay zeka sistemlerine kadar geniş bir yelpazede dahili araç ve altyapı geliştirip yönetmektedir.",
+				"role": {
+					"1": {
+						"project": "Intranet / Çalışan Portalı",
+						"description": "Next.js 16 ve React 19 ile şirket genelinde bir intranet oluşturdu, dahili çalışan portalı olarak hizmet vermektedir. better-auth üzerinden LDAP kimlik doğrulaması entegre ederek çalışanların doğrudan Windows giriş bilgileriyle oturum açabilmesini sağladı. Kendi imzalı HTTPS sertifikası ile yerel olarak barındırılmakta, Microsoft Grup İlkesi aracılığıyla tüm çalışan bilgisayarlarına otomatik olarak dağıtılmakta — aynı ilke ile intranet varsayılan tarayıcı ana sayfası olarak ayarlanarak dahili IP adreslerini hatırlamaya gerek kalmadan sorunsuz erişim sağlanmaktadır."
+					},
+					"2": {
+						"project": "JTL Mağaza Şablonları (Bakım)",
+						"description": "Şirketin üç JTL mağazasının ön yüz kodunu ve şablonlarını aktif olarak yönetmekte, tüm çevrimiçi mağazalarda tutarlı işlevsellik, marka bütünlüğü ve sorunsuz müşteri deneyimi sağlamaktadır."
+					},
+					"3": {
+						"project": "Arama Motoru",
+						"description": "Üç mağazadaki 100.000'den fazla ürün üzerinde, günde binlerce ziyaretçi için 10ms altında arama sonuçları sunan yüksek performanslı bir arama motoru geliştirdi. Typesense ile desteklenmekte ve arama şemasına hakim yerel bir LLM ile geliştirilerek, kullanıcıların belirsiz sorgularını anlayıp somut sonuçlara dönüştürmekte — kullanıcıların spesifik veya teknik terimler kullanmadan aradıklarını bulmasına yardımcı olmaktadır."
+					},
+					"4": {
+						"project": "Özel JTL Mağaza Şablonu",
+						"description": "Tailwind v4 ve Alpine.js kullanarak sıfırdan özel bir JTL Mağaza şablonu geliştirmekte, hazır alternatiflere kıyasla en üst düzey ön yüz performansı ve kod kalitesi sunmak için minimum ek yük ile tasarlanmaktadır."
+					},
+					"5": {
+						"project": "GREYHOUND — Yapay Zeka E-posta Asistanı",
+						"description": "Çalışanların e-posta deneyimini hızlandıran bir GREYHOUND eklentisi geliştirdi: Gelen e-posta içeriklerini önceden tarayıp yapay zeka ile analiz ederek konu rozetleri ve önem derecesi kategorileriyle etiketlemektedir. Bir kenar çubuğu görünümü, alınan e-postaya LLM tabanlı bir yanıtı anında oluşturmakta — çalışan içeriği okumaya başlamadan önce. Çalışanlar ayrıca oluşturulan yanıtı doğal dil yorumlarıyla veya 'İngilizce yanıtla', 'daha resmi', 'daha samimi' gibi hızlı eylemlerle iyileştirebilmektedir."
+					},
+					"6": {
+						"project": "İzleme Altyapısı",
+						"description": "vLLM sunucu performansını ve verimini izlemek için Grafana ve Prometheus örnekleri kurdu. Neredeyse tüm dahili hizmetlerin çalışma süresini ve kullanılabilirliğini takip etmek için bir Kener örneği dağıtarak merkezi bir gözlemlenebilirlik panosu oluşturdu."
+					},
+					"7": {
+						"project": "Üretim Veritabanı için MCP Sunucusu",
+						"description": "Üretim veritabanında yalnızca SELECT sorguları çalıştıran, 12 katmanlı güvenlik kalkanına sahip bir Model Context Protocol sunucusu geliştirdi. Teknik olmayan paydaşların iş sorularını doğal dilde sormalarını ve uygun veritabanı araçlarını dinamik olarak seçen bir LLM aracılığıyla güvenilir, düzenli yanıtlar almalarını sağlamaktadır."
+					},
+					"8": {
+						"project": "Orchestrator — Ajan Bazlı Yapay Zeka Arayüzü",
+						"description": "OpenAI uyumlu uç noktalar sunan ve standart bir LLM gibi davranan, ancak dahili olarak sorguları birden fazla katmandan geçiren yerel bir ajan bazlı arayüz geliştirdi: Gelen sorgular embedding yoluyla ön işlenmekte ve niyet tespiti için vektör veritabanında aranmaktadır. Yüksek güvenilirlikli niyetler hazır yanıtlar ve araçlarla anında yanıtlanır. Daha düşük güvenilirlikli sorgular LLM'ye devredilerek 'order-tracker' veya 'shop-assistant' gibi uygun alt ajanlara yönlendirilmekte, her tür kullanıcı için en uygun yanıt oluşturulmaktadır."
+					}
+				}
+			},
+			"ets": {
+				"company": "Etstur",
+				"location": "İstanbul, Türkiye",
+				"title": "Yazılım Geliştirici",
+				"period": { "start": "Temmuz 2022", "end": "Ağustos 2025" },
+				"description": "Agile ve çapraz fonksiyonlu bir ortamda React ile B2B web uygulamalarını modernleştirdim. Dijital Kontrat projesini tek başıma ön yüz geliştiricisi olarak yönettim, eski B2B uygulamaları modern React teknolojileriyle yeniden inşa ettim ve UI/UX ekip standartlarına dayalı yeni bir B2B UI bileşen kütüphanesinin geliştirilmesine liderlik ettim. Tutarlı UI uygulaması sağladım ve tasarımdan koda dönüşüm sürecini önemli ölçüde hızlandırdım. Ayrıca şirketin DevOps toplantılarında ön yüz temsilcisi olarak görev aldım.",
+				"role": {
+					"1": {
+						"project": "UI Kit",
+						"description": "Figma tasarımlarını yeniden kullanılabilir bir React bileşen kütüphanesine dönüştürdüm, bileşen entegrasyonunu kolaylaştıran bir CLI aracı geliştirdim ve Storybook ile dokümantasyonu organize ettim. Extranet, Intranet ve diğer departman projeleri için yeniden kullanılabilir React bileşenleri sağladım, yeni UI Kit'in B2B uygulamalarında tutarlı şekilde uygulanmasını sağladım ve tasarımdan koda verimliliği önemli ölçüde artırdım. Teknik rehberlik ve işbirlikçi atölyelerle ekipler arası benimsemeyi kolaylaştırdım."
+					},
+					"2": {
+						"project": "E-mail Templates",
+						"description": "Standart bir e-posta template sistemi geliştirdim, dağıtımları otomatikleştirdim ve tutarlılığı artırdım. Ürün ve tasarım ekipleriyle koordineli çalışarak şablonların marka ve kullanılabilirlik standartlarına uygun olmasını sağladım."
+					},
+					"3": {
+						"project": "Extranet & Intranet",
+						"description": "Eski Extranet ve Intranet uygulamalarını iyileştirdim, teknik borcu azalttım ve modernizasyon sürecine katkı sağladım. Eski Freemarker kodunda hataları düzelttim ve Java controller'larını yönettim. Ön yüzü React ile yeniden yazarak ve Java Spring Boot backend ile REST API üzerinden entegre ederek modernleştirilmiş versiyonlar oluşturdum, güvenilirlik ve sürdürülebilirliği önemli ölçüde artırdım."
+					},
+					"4": {
+						"project": "Dijital Kontrat",
+						"description": "Dijital Kontrat projesini tek frontend developer olarak ilerlettim, Etstur'un kontrat ekibinin kontrat verilerini dijitalleştirmesini ve şirket içinde birden fazla departman arasında akışını takip etmesini sağladım. Son kullanıcılara çözümler sunmak için işbirliği yaptım ve projenin şirket çapında takdir kazanmasında rol aldım."
+					}
+				}
+			},
+			"1pixel": {
+				"company": "1Pixel Digital Agency",
+				"location": "İzmir, Türkiye",
+				"title": "Ön Yüz Geliştirme Stajyeri",
+				"period": { "start": "Ekim 2021", "end": "Kasım 2021" },
+				"description": "Agile ve Jira ile yönetilen bir iş akışında grafik tasarımlardan duyarlı ve yüksek kaliteli sayfa bölümleri geliştirdim.",
+				"role": {
+					"1": {
+						"project": "Shopify Şablonları",
+						"description": "Müşteri esnekliğini artırmak için CMS kontrolleriyle özelleştirilebilir Shopify temaları oluşturdum ve dinamik mağaza verilerini Liquid şablonlama ile entegre ettim."
+					}
+				}
+			}
+		}
+	},
+	"education": {
+		"title": "Eğitim & Kurslar",
+		"1": {
+			"institution": "Ege Üniversitesi",
+			"field": "İngiliz Dili ve Edebiyatı Lisans",
+			"period": "2022"
+		},
+		"2": {
+			"institution": "Academy Peak",
+			"field": "Ömer Çıtak ile Güvenli Yazılım Geliştirme",
+			"period": "16-18 Mart, 2023"
+		}
+	},
+	"reference": {
+		"title": "Referanslar"
+	}
+}

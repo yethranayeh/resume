@@ -1,0 +1,35 @@
+@use "../../variables.scss";
+
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: variables.$spacing-2;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.headerCol {
+	display: flex;
+	flex-direction: column;
+	gap: variables.$spacing;
+}
+
+.company {
+	font-weight: 900;
+	font-size: 1.2rem;
+}
+
+.periodContainer {
+	display: flex;
+	gap: variables.$spacing;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	gap: variables.$spacing;
+}

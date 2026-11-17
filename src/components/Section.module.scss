@@ -1,0 +1,14 @@
+@use "../variables.scss";
+
+.section {
+	display: flex;
+	flex-direction: column;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+
+	gap: variables.$spacing-3;
+	padding: variables.$spacing-2 !important;
+}

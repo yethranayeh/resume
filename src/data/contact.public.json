@@ -1,0 +1,7 @@
+{
+	"_comment": "PUBLIC. This file is committed and its values ship in the deployed build at www.aktasalper.com/resume/. Put nothing here you would not paste into a public forum. Real details live in contact.private.json (gitignored) and are swapped in by `npm run build:private`.",
+	"email": "hire@aktasalper.com",
+	"phone": "",
+	"links": ["linkedin.com/in/aktasalper", "github.com/yethranayeh", "aktasalper.com"],
+	"references": []
+}

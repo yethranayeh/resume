@@ -1,0 +1,15 @@
+@use "../variables.scss";
+
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: variables.$spacing-half;
+
+	& i {
+		margin-right: 1mm;
+	}
+
+	& a {
+		width: max-content;
+	}
+}

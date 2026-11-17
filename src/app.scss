@@ -1,0 +1,166 @@
+@use "variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+body {
+	background: rgb(204, 204, 204) !important;
+	width: 21cm;
+	height: 29.7cm;
+	margin: 0 auto;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	gap: variables.$spacing;
+}
+
+p {
+	line-height: 5.3mm !important;
+}
+
+.nav {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	border: 2px dashed variables.$primary;
+	padding: variables.$spacing;
+	gap: variables.$spacing;
+}
+
+.text-caption {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1;
+	font-size: 0.4cm;
+	color: rgba($color: variables.$primary, $alpha: 0.7);
+}
+
+*,
+.text-regular {
+	color: variables.$primary;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: 0.05mm;
+}
+
+.text-medium {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.text-bold {
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.text-black {
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	font-style: normal;
+}
+
+.header {
+	$line-gap: 2mm;
+	$border-radius: 1mm;
+
+	display: inline-flex;
+	align-items: center;
+	white-space: nowrap;
+
+	&::before,
+	&::after {
+		content: "";
+		height: 0.2cm;
+		background-color: variables.$primary;
+	}
+
+	&::before {
+		width: 2cm;
+		margin-right: $line-gap;
+		border-top-right-radius: $border-radius;
+		border-bottom-right-radius: $border-radius;
+	}
+
+	&::after {
+		width: 20cm;
+		margin-left: $line-gap;
+		border-top-left-radius: $border-radius;
+		border-bottom-left-radius: $border-radius;
+	}
+}
+
+.lower-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 0.5fr 1.5fr;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas:
+		"education references"
+		"languages references";
+
+	& > div {
+		height: 100%;
+	}
+}
+
+.education {
+	grid-area: education;
+}
+
+.languages {
+	grid-area: languages;
+}
+
+.references {
+	grid-area: references;
+}
+
+.section-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 100%;
+}
+
+.col {
+	display: flex;
+	flex-direction: column;
+}
+
+// A4
+page {
+	background: white;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 0.5cm;
+	position: relative;
+
+	overflow: hidden;
+}
+
+// FIXME: each "page" content should adhere to A4 sheet size
+
+page[size="A4"] {
+	width: 21cm;
+	height: 29.7cm;
+}
+
+@page {
+	size: 21cm 29.7cm;
+	margin: 0;
+}
+
+@media print {
+	.no-print,
+	.no-print * {
+		display: none !important;
+	}
+}

@@ -1,0 +1,31 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+# dist is intentionally tracked -- it is what `npm run deploy` subtree-pushes to gh-pages.
+# The leak guard in scripts/check-no-private.mjs is what keeps private values out of it.
+# dist
+dist-ssr
+*.local
+
+# Private contact details. Consumed only by `npm run build:private` / `npm run dev`.
+# Never commit: this repo is public and dist/ is tracked.
+src/data/contact.private.json
+dist-private
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

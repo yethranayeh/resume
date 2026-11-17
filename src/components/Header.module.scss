@@ -1,0 +1,49 @@
+@use "../variables.scss";
+
+$header-size: 7mm;
+
+.header {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: variables.$spacing-2;
+	gap: variables.$spacing-2;
+}
+
+.name {
+	text-transform: uppercase;
+	font-size: $header-size;
+}
+
+// Item count varies by build (the public build omits the phone number), so this
+// must not assume a fixed 3x2 grid or a fixed separator position.
+.info {
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	justify-content: start;
+	gap: variables.$spacing variables.$spacing-3;
+	grid-auto-flow: row;
+
+	& li {
+		padding-right: 3mm;
+	}
+	// Separator after every item except the last in each row and the last overall.
+	& li:not(:nth-of-type(3n)):not(:last-of-type) {
+		border-right: 1px solid variables.$primary;
+	}
+}
+
+.summary {
+	line-height: 5mm;
+	word-spacing: 0.1mm;
+	letter-spacing: 0.1mm;
+}
+
+.personal {
+	font-size: calc($header-size * 0.6);
+}
+
+.links {
+	font-size: calc($header-size * 0.52);
+}

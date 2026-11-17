@@ -1,0 +1,19 @@
+@use "../../../variables.scss";
+
+.printHack {
+	// I hate myself for doing this, but it turns out making A4 Print compatible HTML pages is really, really hard... At least for me, at this point in time.
+	&::after {
+		content: "";
+
+		position: absolute;
+		bottom: 0;
+		left: 2px;
+		right: 2px;
+		min-height: var(--cutoff);
+		background-color: white;
+
+		// DEBUG
+		// background-color: crimson;
+		// opacity: 0.2;
+	}
+}

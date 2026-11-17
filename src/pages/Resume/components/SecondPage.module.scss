@@ -1,0 +1,13 @@
+.printHack {
+	position: relative;
+	top: var(--cutoff);
+}
+
+// Public build has no references column, so education takes the full width
+// instead of leaving an empty half.
+.noReferences {
+	grid-template-columns: 1fr;
+	grid-template-areas:
+		"education"
+		"languages";
+}

@@ -5,20 +5,11 @@
  * so the two can differ in shape without breaking the type.
  */
 declare module "@contact" {
-	interface ContactReference {
-		name: string;
-		title: string;
-		company?: string;
-		phone?: string;
-		email?: string;
-	}
-
 	interface Contact {
 		/** Empty string means "omit from the rendered header". */
 		email?: string;
 		phone?: string;
 		links: Array<string>;
-		references: Array<ContactReference>;
 	}
 
 	const contact: Contact;

@@ -2,31 +2,34 @@
 /**
  * Leak guard.
  *
- * `dist/` is tracked in this public repo and subtree-pushed to gh-pages, so any
- * private value that reaches a public build gets published twice -- once on the
- * live site and once, permanently, in git history. That is exactly how two
- * former colleagues' mobile numbers ended up public.
+ * `dist/` is built in CI and published, so any private value that reaches the
+ * public output is live until the next deploy -- and once committed, permanent
+ * in git history. That is how two former colleagues' mobile numbers ended up
+ * public. This fails the build if any value from a `src/data/*.private.json`
+ * file appears anywhere in the output or in tracked source.
  *
- * This fails the build if any value from contact.private.json appears anywhere
- * in the public output, or anywhere in tracked source.
- *
- * Runs automatically via `prepipeline`. Do not bypass it.
+ * Runs automatically in the Pages workflow. Do not bypass it.
  */
 import { readFileSync, existsSync, readdirSync, statSync } from "node:fs";
 import { join, dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
-const PRIVATE_FILE = join(ROOT, "src/data/contact.private.json");
+const DATA_DIR = join(ROOT, "src/data");
+const PRIVATE_FILES = existsSync(DATA_DIR)
+	? readdirSync(DATA_DIR)
+			.filter((file) => file.endsWith(".private.json"))
+			.map((file) => join(DATA_DIR, file))
+	: [];
 // Defaults are what gets committed and deployed. Pass directories explicitly to
 // scan something else -- e.g. `npm run check:private -- dist-private` should
 // FAIL, which is how you verify the guard still works.
 const SCAN_DIRS = process.argv.slice(2).filter((arg) => !arg.startsWith("-"));
 if (SCAN_DIRS.length === 0) SCAN_DIRS.push("dist", "src");
-const SKIP_FILES = new Set([PRIVATE_FILE]);
+const SKIP_FILES = new Set(PRIVATE_FILES);
 
-if (!existsSync(PRIVATE_FILE)) {
-	console.log("check-no-private: no contact.private.json present, nothing to guard against.");
+if (PRIVATE_FILES.length === 0) {
+	console.log("check-no-private: no *.private.json present, nothing to guard against.");
 	process.exit(0);
 }
 
@@ -59,7 +62,11 @@ function collectSecrets(node, out = new Set(), key = "") {
 	return out;
 }
 
-const priv = JSON.parse(readFileSync(PRIVATE_FILE, "utf8"));
+const privateValues = new Set();
+for (const file of PRIVATE_FILES) {
+	collectSecrets(JSON.parse(readFileSync(file, "utf8")), privateValues);
+}
+
 const publicFile = join(ROOT, "src/data/contact.public.json");
 const publicValues = existsSync(publicFile)
 	? collectSecrets(JSON.parse(readFileSync(publicFile, "utf8")))
@@ -67,7 +74,7 @@ const publicValues = existsSync(publicFile)
 
 // A value that also appears in the public file is public by decision (the
 // shared links), so it is not a leak.
-const secrets = [...collectSecrets(priv)].filter((value) => !publicValues.has(value));
+const secrets = [...privateValues].filter((value) => !publicValues.has(value));
 
 // Phone numbers get reformatted by bundlers/minifiers less than they get
 // rewritten by humans; also check a whitespace-stripped variant.
@@ -122,4 +129,4 @@ if (findings.length > 0) {
 	process.exit(1);
 }
 
-console.log(`check-no-private: OK -- ${needles.size} guarded values, none present in dist/ or src/.`);
+console.log(`check-no-private: OK -- ${needles.size} guarded values, none present in the scanned output.`);

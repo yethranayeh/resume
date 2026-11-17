@@ -5,26 +5,23 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vite --mode private",
-		"build": "tsc -b && vite build",
-		"build:private": "tsc -b && vite build --mode private",
+		"build": "tsc -b && vite build && node scripts/prerender.mjs && node scripts/pdf.mjs",
+		"build:private": "tsc -b && vite build --mode private && node scripts/pdf.mjs --mode private",
 		"preview": "vite preview",
-		"check:private": "node scripts/check-no-private.mjs",
-		"deploy": "git subtree push --prefix dist origin gh-pages",
-		"prepipeline": "npm run build && npm run check:private",
-		"pipeline": "git add -A && git commit -m 'build files' && git push && npm run deploy"
+		"check:private": "node scripts/check-no-private.mjs"
 	},
 	"dependencies": {
-		"@11ty/eleventy": "^3.1.2",
+		"@fontsource/roboto": "5.3.0",
 		"i18next": "^25.4.1",
-		"lodash": "^4.17.21",
 		"preact": "^10.24.1",
 		"react-i18next": "^15.4.0",
 		"react-router-dom": "^6.27.0"
 	},
 	"devDependencies": {
 		"@preact/preset-vite": "^2.9.1",
+		"pdf-lib": "1.17.1",
+		"playwright-core": "1.65.0",
 		"sass": "^1.79.5",
-		"tsx": "^4.20.5",
 		"typescript": "^5.5.3",
 		"vite": "^5.4.8"
 	}

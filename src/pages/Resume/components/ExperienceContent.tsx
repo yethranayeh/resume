@@ -4,13 +4,12 @@ import { Experience } from "../../../components/Experience/Experience";
 import { ResumeSection } from "../../../components/Section";
 import { Project } from "../../../components/Experience/Project";
 
-type CutoffPoint = {
-	companyIndex?: number;
-	projectIndex?: number;
-};
 interface Props {
 	hideTitle?: boolean;
-	cutoffPoint?: CutoffPoint;
+	/** First company index to render (inclusive). */
+	fromCompany?: number;
+	/** Last company index to render (exclusive). Defaults to all. */
+	toCompany?: number;
 }
 
 const companies = [
@@ -18,16 +17,15 @@ const companies = [
 		name: "schraubenhandel" as const,
 		skills: [
 			"TypeScript",
-			"Next.js 16 / React 19",
-			"Tailwind v4 / Alpine.js",
-			"better-auth / LDAP",
+			"Next.js / React",
+			"Node.js",
+			"SQL / MCP",
 			"Typesense",
-			"Grafana / Prometheus / Kener",
-			"vLLM / LLM Integration",
-			"MCP (Model Context Protocol)",
-			"Vector Embeddings"
+			"Tailwind / Alpine.js",
+			"Grafana / Prometheus",
+			"LLM integration"
 		],
-		projects: [1, 2, 3, 4, 5, 6, 7, 8]
+		projects: [1, 2, 3]
 	},
 	{
 		name: "ets" as const,
@@ -52,15 +50,15 @@ const companies = [
 	}
 ];
 
-export function ExperienceContent({ hideTitle, cutoffPoint }: Props) {
+export function ExperienceContent({ hideTitle, fromCompany = 0, toCompany }: Props) {
 	const { t } = useTranslation("resume", { keyPrefix: "experience" });
 
 	return (
 		<ResumeSection hideTitle={hideTitle} title={t("title")}>
-			{companies.slice(cutoffPoint?.companyIndex).map(({ name, skills, projects }) => (
+			{companies.slice(fromCompany, toCompany).map(({ name, skills, projects }) => (
 				<Experience key={name} company={name} skills={skills}>
 					<ul style={{ paddingLeft: "1cm", display: "flex", flexDirection: "column", gap: "2mm" }}>
-						{projects.slice(cutoffPoint?.projectIndex).map((project) => (
+						{projects.map((project) => (
 							<Project
 								key={project}
 								// @ts-expect-error

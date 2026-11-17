@@ -14,9 +14,10 @@ export default defineConfig(({ mode }) => {
 
 	return {
 		plugins: [preact()],
-		// The private build is printed to PDF locally and never deployed, so it
-		// wants relative asset paths rather than the public site's absolute base.
-		base: isPrivate ? "./" : "https://www.aktasalper.com/resume/",
+		// Root-relative so the prerenderer can serve dist/ at the same /resume/
+		// path the deployed site uses. The private build is printed locally and
+		// never deployed, so it keeps relative paths.
+		base: isPrivate ? "./" : "/resume/",
 		build: {
 			outDir: isPrivate ? "dist-private" : "dist"
 		},

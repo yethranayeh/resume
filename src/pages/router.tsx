@@ -9,7 +9,6 @@ const router = createHashRouter([
 		path: "/",
 		element: (
 			<>
-				{/* <Navbar /> */}
 				<LanguageHandler />
 				<Outlet />
 			</>

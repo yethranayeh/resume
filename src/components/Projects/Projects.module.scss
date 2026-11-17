@@ -1,0 +1,16 @@
+@use "../../variables.scss";
+
+.project {
+	display: flex;
+	flex-direction: column;
+	gap: variables.$spacing;
+}
+
+.links {
+	font-size: 0.36cm;
+
+	& a {
+		color: rgba($color: variables.$primary, $alpha: 0.75);
+		text-decoration: none;
+	}
+}

@@ -23,7 +23,7 @@ export const Experience = ({
 					<div className={styles.periodContainer}>
 						<span className='text-caption'>{t("period.start")}</span>
 						{" - "}
-						<span className='text-caption'>{t("period.end", { defaultValue: "" }) || "Present"}</span>
+						<span className='text-caption'>{t("period.end", { defaultValue: "" }) || t2("present")}</span>
 					</div>
 				</div>
 			</div>

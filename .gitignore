@@ -8,16 +8,20 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-# dist is intentionally tracked -- it is what `npm run deploy` subtree-pushes to gh-pages.
-# The leak guard in scripts/check-no-private.mjs is what keeps private values out of it.
-# dist
+
+# Built by the Pages workflow. Never commit build output.
+dist/
+dist-private/
 dist-ssr
 *.local
 
-# Private contact details. Consumed only by `npm run build:private` / `npm run dev`.
-# Never commit: this repo is public and dist/ is tracked.
-src/data/contact.private.json
-dist-private
+# Leftovers from the abandoned Eleventy attempt.
+_site/
+*.tsbuildinfo
+
+# Private contact details, consumed only by `npm run build:private` / `npm run dev`.
+# Never commit: this repo is public.
+src/data/*.private.json
 
 # Editor directories and files
 .vscode/*

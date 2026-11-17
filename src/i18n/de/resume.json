@@ -2,7 +2,7 @@
 	"header": {
 		"name": "Alper Halil",
 		"location": "Würzburg, Bayern, Deutschland",
-		"summary": "Softwareentwickler mit über 3 Jahren Erfahrung in der Entwicklung skalierbarer und wartbarer Webanwendungen. Versiert in TypeScript, React und modernen UI-Mustern, mit nachgewiesener Erfolgsbilanz bei der Verbesserung der Codequalität, Optimierung von Workflows und Steigerung der Benutzererfahrung in verschiedenen Frontend-Stacks."
+		"summary": "Softwareentwickler mit über 4 Jahren Erfahrung, überwiegend in TypeScript — im Frontend und Backend: React- und Next.js-Oberflächen, Node.js-Services und interne Tooling-Entwicklung. Entwickelte eine unternehmensweite B2B-Komponentenbibliothek samt eigener CLI, eine Typesense-basierte Produktsuche über 100.000+ Artikel und MCP-/LLM-Tools, die Fachanwendern natürlichsprachigen Zugriff auf eine produktive ERP-Datenbank geben."
 	},
 	"experience": {
 		"title": "Berufserfahrung",
@@ -12,41 +12,24 @@
 			"schraubenhandel": {
 				"company": "Schraubenhandel Machholz Nchfg. GmbH",
 				"location": "Würzburg, Bayern, Deutschland",
-				"title": "IT-Abteilung",
-				"period": { "start": "Oktober 2025", "end": "" },
-				"description": "Tätig in der IT-Abteilung mit Schwerpunkt auf Softwareentwicklung, Aufbau und Wartung einer breiten Palette interner Tools und Infrastruktur — vom Next.js-Mitarbeiterportal und KI-gestützten E-Mail-Plugins bis hin zu Suchmaschinen, Monitoring-Stacks und maßgeschneiderten agentischen KI-Systemen.",
+				"title": "Softwareentwickler",
+				"period": {
+					"start": "Oktober 2025",
+					"end": ""
+				},
+				"description": "Softwareentwicklung in der IT-Abteilung eines Schraubengroßhändlers: interne Tools, Shop-Frontends und die KI-Infrastruktur dahinter.",
 				"role": {
 					"1": {
-						"project": "Intranet / Mitarbeiterportal",
-						"description": "Entwicklung eines unternehmensweiten Intranets mit Next.js 16 und React 19 als internes Mitarbeiterportal. Integration von LDAP-Authentifizierung über better-auth, sodass sich Mitarbeiter direkt mit ihren Windows-Anmeldedaten einloggen können. Lokal gehostet mit einem selbstsignierten HTTPS-Zertifikat, das automatisch über eine Microsoft-Gruppenrichtlinie auf allen Mitarbeiterrechnern verteilt wird — welche das Intranet auch als Browser-Startseite festlegt, für nahtlosen Zugriff ohne interne IP-Adressen merken zu müssen."
+						"project": "KI-Tool-Server für die ERP-Datenbank",
+						"description": "MCP-Server mit lesenden SQL-Abfragen auf der produktiven ERP-Datenbank; Fachanwender stellen Geschäftsfragen in natürlicher Sprache."
 					},
 					"2": {
-						"project": "JTL Shop Templates (Wartung)",
-						"description": "Aktive Wartung des Frontend-Codes und der Templates aller drei JTL-Shops des Unternehmens, um konsistente Funktionalität, einheitliches Branding und eine reibungslose Kundenerfahrung über alle Onlineshops hinweg sicherzustellen."
+						"project": "Agenten-Tooling",
+						"description": "OpenAI-kompatibler Orchestrator, der Anfragen über Intent-Erkennung, Vektorsuche und spezialisierte Sub-Agenten leitet."
 					},
 					"3": {
-						"project": "Suchmaschine",
-						"description": "Entwicklung einer leistungsstarken Suchmaschine mit über 100.000 Produkten über alle drei Shops hinweg, die Suchergebnisse unter 10ms für tausende tägliche Besucher liefert. Aufgebaut mit Typesense und erweitert durch ein lokales LLM, das das Suchschema kennt und vage Suchanfragen versteht und in präzise Ergebnisse übersetzt — sodass Benutzer finden, was sie suchen, ohne spezifische oder technische Begriffe verwenden zu müssen."
-					},
-					"4": {
-						"project": "Maßgeschneidertes JTL Shop Template",
-						"description": "Entwicklung eines eigenen JTL-Shop-Templates von Grund auf mit Tailwind v4 und Alpine.js, optimiert mit minimalem Overhead für maximale Frontend-Performance und Codequalität im Vergleich zu Standardlösungen."
-					},
-					"5": {
-						"project": "GREYHOUND — KI-E-Mail-Assistent",
-						"description": "Entwicklung eines GREYHOUND-Plugins, das die E-Mail-Erfahrung der Mitarbeiter optimiert: Eingehende E-Mail-Inhalte werden vorab analysiert und durch KI mit Themen-Badges und Dringlichkeitskategorien versehen. Eine Seitenleiste generiert in Echtzeit eine LLM-basierte Antwort auf die empfangene E-Mail — noch bevor der Mitarbeiter den Inhalt zu lesen beginnt. Mitarbeiter können die generierte Antwort durch natürlichsprachliche Kommentare oder Schnellaktionen wie 'auf Englisch antworten', 'formeller' oder 'freundlicher' verfeinern."
-					},
-					"6": {
-						"project": "Monitoring-Infrastruktur",
-						"description": "Einrichtung von Grafana- und Prometheus-Instanzen zur Überwachung der vLLM-Server-Performance und -Durchsatz. Bereitstellung einer Kener-Instanz zur Verfolgung der Betriebszeit und Verfügbarkeit nahezu aller internen Dienste, mit einem zentralen Observability-Dashboard."
-					},
-					"7": {
-						"project": "MCP-Server für Produktivdatenbank",
-						"description": "Entwicklung eines Model-Context-Protocol-Servers mit 12 Sicherheitsschichten, der ausschließlich SELECT-Abfragen auf der Produktivdatenbank ausführt. Ermöglicht nicht-technischen Stakeholdern, Geschäftsfragen in natürlicher Sprache zu stellen und zuverlässige, strukturierte Antworten über ein LLM zu erhalten, das dynamisch die passenden Datenbank-Tools auswählt."
-					},
-					"8": {
-						"project": "Orchestrator — Agentische KI-Schnittstelle",
-						"description": "Entwicklung einer lokalen agentischen Schnittstelle, die OpenAI-kompatible Endpunkte bereitstellt und sich wie ein Standard-LLM verhält, aber intern Anfragen durch mehrere Schichten leitet: Eingehende Anfragen werden durch Embedding und Suche in einer Vektordatenbank zur Absichtserkennung vorverarbeitet. Hochzuverlässige Absichten werden sofort mit vorbereiteten Antworten und Tools beantwortet. Weniger sichere Anfragen werden an das LLM delegiert und in Richtung passender Sub-Agenten wie 'order-tracker' oder 'shop-assistant' gelenkt, um die optimale Antwort für jede Art von Nutzer zu konstruieren."
+						"project": "Shop-Software",
+						"description": "JTL-Templates für drei Shops, eine Typesense-Produktsuche über 100.000+ Artikel und ein LDAP-gestütztes Mitarbeiterportal."
 					}
 				}
 			},
@@ -54,8 +37,11 @@
 				"company": "Etstur",
 				"location": "Istanbul, Türkei",
 				"title": "Softwareentwickler",
-				"period": { "start": "Juli 2022", "end": "August 2025" },
-				"description": "Modernisierung von B2B-Webanwendungen mit React in einem agilen, funktionsübergreifenden Umfeld. Leitung des Digital Contract-Projekts als alleiniger Frontend-Entwickler, Neuentwicklung von Legacy-B2B-Anwendungen mit modernen React-Technologien und später Leitung der Entwicklung einer neuen B2B-UI-Komponentenbibliothek basierend auf UI/UX-Teamstandards. Gewährleistung einer konsistenten UI-Implementierung und deutliche Reduzierung des Aufwands für die Umsetzung von Design in Code. Außerdem als Frontend-Vertreter in DevOps-Meetings des Unternehmens tätig.",
+				"period": {
+					"start": "Juli 2022",
+					"end": "August 2025"
+				},
+				"description": "Etstur ist eines der größten Online-Reisebüros und Reiseveranstalter der Türkei. Modernisierung von B2B-Webanwendungen mit React im agilen, funktionsübergreifenden Team: Leitung des Digital-Contract-Projekts als alleiniger Frontend-Entwickler, Neuentwicklung von Legacy-Anwendungen mit einem modernen React-Stack und Leitung einer B2B-Komponentenbibliothek nach den Standards des UI/UX-Teams. Vertretung des Frontends in den DevOps-Meetings.",
 				"role": {
 					"1": {
 						"project": "UI Kit",
@@ -79,7 +65,10 @@
 				"company": "1Pixel Digital Agency",
 				"location": "Izmir, Türkei",
 				"title": "Frontend-Entwicklungspraktikant",
-				"period": { "start": "Oktober 2021", "end": "November 2021" },
+				"period": {
+					"start": "Oktober 2021",
+					"end": "November 2021"
+				},
 				"description": "Entwicklung von responsiven, hochwertigen Seitenabschnitten aus Grafikdesigns in einem agilen, Jira-gesteuerten Workflow.",
 				"role": {
 					"1": {
@@ -91,7 +80,6 @@
 		}
 	},
 	"education": {
-		"title": "Ausbildung & Kurse",
 		"1": {
 			"institution": "Ege Universität",
 			"field": "B.A. in Englischer Sprache und Literatur",
@@ -101,9 +89,19 @@
 			"institution": "Academy Peak",
 			"field": "Sichere Softwareentwicklung bei Ömer Çıtak",
 			"period": "16.-18. März 2023"
+		},
+		"title": "Ausbildung & Kurse"
+	},
+	"projects": {
+		"title": "Projekte",
+		"zinn": {
+			"title": "Zinn — Open-Source-Kanban-CLI",
+			"description": "TypeScript, MIT, npm: @zinn-dev/cli. Entwickelte den SQLite-basierten Core, die CLI und Integrationen, die Aufgaben für Coding-Agenten bereitstellen (OpenCode-TUI-Inspector, Codex). Getestet unter Bun und Node; dokumentiert auf zinn.sh."
 		}
 	},
-	"reference": {
-		"title": "Referenzen"
+	"meta": {
+		"title": "Alper Halil — Softwareentwickler (TypeScript, React, Node.js)",
+		"description": "TypeScript-Entwickler mit über 4 Jahren Erfahrung in Frontend und Backend: React, Next.js, Node.js, interne Tools und LLM-/MCP-Integrationen.",
+		"jobTitle": "Softwareentwickler"
 	}
 }

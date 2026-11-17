@@ -1,13 +1,12 @@
-.printHack {
-	position: relative;
-	top: var(--cutoff);
-}
+@use "../../../variables.scss";
 
-// Public build has no references column, so education takes the full width
-// instead of leaving an empty half.
-.noReferences {
-	grid-template-columns: 1fr;
-	grid-template-areas:
-		"education"
-		"languages";
+.lowerGrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: start;
+	gap: variables.$spacing-3;
+
+	& > div {
+		min-width: 0;
+	}
 }

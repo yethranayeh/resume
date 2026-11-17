@@ -2,7 +2,7 @@
 	"header": {
 		"name": "Alper Halil",
 		"location": "Würzburg, Bavaria, Germany",
-		"summary": "Software developer with 3+ years of experience building scalable, maintainable web applications. Skilled in TypeScript, React, and modern UI patterns, with a proven record of elevating code quality, streamlining workflows, and enhancing user experience across diverse frontend stacks."
+		"summary": "Software developer with 4+ years of experience, working primarily in TypeScript across frontend and backend: React and Next.js interfaces, Node.js services, and internal tooling. Built a shared B2B component library with its own CLI, a Typesense-based product search across 100,000+ SKUs, and MCP/LLM tooling that gives non-technical staff natural-language access to a production ERP database."
 	},
 	"experience": {
 		"title": "Experience",
@@ -12,41 +12,24 @@
 			"schraubenhandel": {
 				"company": "Schraubenhandel Machholz Nchfg. GmbH",
 				"location": "Würzburg, Bavaria, Germany",
-				"title": "IT Department",
-				"period": { "start": "October 2025", "end": "" },
-				"description": "Working in the IT department with a primary focus on software development, building and maintaining a wide range of internal tools and infrastructure — from a Next.js employee portal and AI-powered email plugins to search engines, monitoring stacks, and custom agentic AI systems.",
+				"title": "Software Developer",
+				"period": {
+					"start": "October 2025",
+					"end": ""
+				},
+				"description": "Software development in the IT department of a screw wholesaler: internal tools, shop frontends, and the AI infrastructure behind them.",
 				"role": {
 					"1": {
-						"project": "Intranet / Mitarbeiterportal",
-						"description": "Built a company-wide intranet with Next.js 16 and React 19, serving as an internal employee portal. Integrated LDAP authentication via better-auth so employees can log in directly with their Windows credentials. Locally hosted with a self-signed HTTPS certificate, distributed automatically to all employee machines through a Microsoft Group Policy — which also sets the intranet as the default browser homepage for seamless access without needing to remember internal IP addresses."
+						"project": "AI tool server for the ERP database",
+						"description": "MCP server that runs read-only SQL against the production ERP database, letting non-technical staff ask business questions in natural language."
 					},
 					"2": {
-						"project": "JTL Shop Templates (Maintenance)",
-						"description": "Actively maintaining frontend code and templates for all three company JTL shops, ensuring consistent functionality, branding, and a smooth customer experience across the online stores."
+						"project": "Agent tooling",
+						"description": "OpenAI-compatible orchestrator that routes requests through intent detection, vector search, and specialised sub-agents."
 					},
 					"3": {
-						"project": "Search Engine",
-						"description": "Built a high-performance search engine over a pool of 100,000+ products across all three shops, delivering sub-10ms search results at scale for thousands of daily visitors. Powered by Typesense, and enhanced with a local LLM aware of the search schema that understands and translates vague user queries into precise, tangible results — helping users find what they need without specific or technical terms."
-					},
-					"4": {
-						"project": "Custom JTL Shop Template",
-						"description": "Developing a bespoke JTL Shop template from the ground up using Tailwind v4 and Alpine.js, engineered with minimal bloat to deliver the ultimate frontend performance and code quality compared to off-the-shelf alternatives."
-					},
-					"5": {
-						"project": "GREYHOUND — AI Email Assistant",
-						"description": "Built a GREYHOUND plugin that supercharges the employee email experience: pre-screens incoming email content and parses it through AI to tag messages with topic badges and urgency categorizations. A sidebar view generates an LLM-based reply to the received email on the fly — before the employee even begins reading the content. Employees can also refine the generated reply through natural language comments or quick actions such as 'reply in English', 'more formal', or 'more friendly'."
-					},
-					"6": {
-						"project": "Monitoring Infrastructure",
-						"description": "Set up Grafana and Prometheus instances to monitor vLLM server performance and throughput. Deployed a Kener instance to track uptime and availability across nearly all internal services, providing a centralized observability dashboard."
-					},
-					"7": {
-						"project": "MCP Server for Production Database",
-						"description": "Built a Model Context Protocol server with 12 layers of safety harness that performs live SELECT-only queries against the production database. Enables non-technical stakeholders to ask business questions in natural language and receive reliable, organized answers via an LLM that dynamically selects the appropriate database tools."
-					},
-					"8": {
-						"project": "Orchestrator — Agentic AI Interface",
-						"description": "Built a local agentic interface that exposes OpenAI-compatible endpoints and behaves like a standard LLM, but internally routes queries through multiple layers: pre-processes incoming queries by embedding them and searching a vector database for intent detection. High-confidence intents are answered instantly with prepared responses and tools. Lower-confidence queries are delegated to the LLM, nudged toward fitting sub-agents such as 'order-tracker' or 'shop-assistant', to construct the optimal answer for any kind of user."
+						"project": "Shop software",
+						"description": "JTL templates for three shops, a Typesense product search over 100,000+ products, and an LDAP-backed employee portal."
 					}
 				}
 			},
@@ -54,8 +37,11 @@
 				"company": "Etstur",
 				"location": "Istanbul, Turkey",
 				"title": "Software Developer",
-				"period": { "start": "July 2022", "end": "August 2025" },
-				"description": "Modernized B2B web applications with React in an Agile, cross-functional environment. Led the Digital Contract project as sole front-end developer, rebuilt legacy B2B apps with a modern React stack, and later led the development of a new B2B UI component library based on UI/UX team standards, enabling consistent UI implementation and significantly reducing the effort transform design into code. In addition, acted as a frontend representative in company's DevOps meetings.",
+				"period": {
+					"start": "July 2022",
+					"end": "August 2025"
+				},
+				"description": "Etstur is one of Turkey's largest online travel agencies and tour operators. Modernised B2B web applications with React in an agile, cross-functional team: led the Digital Contract project as sole frontend developer, rebuilt legacy B2B apps on a modern React stack, and led development of a B2B component library based on the UI/UX team's standards, significantly reducing the effort needed to turn designs into code. Represented the frontend in the company's DevOps meetings.",
 				"role": {
 					"1": {
 						"project": "UI Kit",
@@ -79,7 +65,10 @@
 				"company": "1Pixel Digital Agency",
 				"location": "Izmir, Turkey",
 				"title": "Front-End Development Intern",
-				"period": { "start": "October 2021", "end": "November 2021" },
+				"period": {
+					"start": "October 2021",
+					"end": "November 2021"
+				},
 				"description": "Delivered responsive, high-quality page sections from graphic designs within an agile, Jira-managed workflow.",
 				"role": {
 					"1": {
@@ -91,7 +80,6 @@
 		}
 	},
 	"education": {
-		"title": "Education & Courses",
 		"1": {
 			"institution": "Ege University",
 			"field": "B.A. in English Language and Literature",
@@ -101,9 +89,19 @@
 			"institution": "Academy Peak",
 			"field": "Secure Software Development by Ömer Çıtak",
 			"period": "16-18 March, 2023"
+		},
+		"title": "Education & Courses"
+	},
+	"projects": {
+		"title": "Projects",
+		"zinn": {
+			"title": "Zinn — open-source kanban CLI",
+			"description": "TypeScript, MIT, npm: @zinn-dev/cli. Built the SQLite-backed core, the CLI, and integrations that expose tasks to coding agents (OpenCode TUI inspector, Codex). Tested on both Bun and Node; documented at zinn.sh."
 		}
 	},
-	"reference": {
-		"title": "References"
+	"meta": {
+		"title": "Alper Halil — Software Developer (TypeScript, React, Node.js)",
+		"description": "TypeScript developer with 4+ years of experience across frontend and backend: React and Next.js, Node.js services, internal tooling, and LLM/MCP integrations.",
+		"jobTitle": "Software Developer"
 	}
 }

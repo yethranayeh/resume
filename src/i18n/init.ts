@@ -10,6 +10,9 @@ i18next
 	// @ts-expect-error FIXME: adding namespaces causes type error
 	.init({
 		lng: pageLanguage,
+		// Resolve synchronously so the first render already uses the locale from
+		// the URL. The prerenderer captures the DOM immediately after load.
+		initImmediate: false,
 		debug: false,
 		resources: i18nResources,
 		namespaces,

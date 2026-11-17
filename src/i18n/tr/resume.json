@@ -2,7 +2,7 @@
 	"header": {
 		"name": "Alper Halil",
 		"location": "Würzburg, Bavyera, Almanya",
-		"summary": "3+ yıllık deneyime sahip, ölçeklenebilir ve sürdürülebilir web uygulamaları geliştiren yazılım geliştirici. TypeScript, React ve modern UI desenlerinde yetkin, kod kalitesini artırma, iş akışlarını iyileştirme ve kullanıcı deneyimini geliştirme konusunda kanıtlanmış bir geçmişe sahip."
+		"summary": "4+ yıllık deneyime sahip, ağırlıklı olarak TypeScript ile frontend ve backend geliştiren yazılım geliştirici: React ve Next.js arayüzleri, Node.js servisleri ve dahili araçlar. Şirket çapında kullanılan bir B2B bileşen kütüphanesi ve CLI'ı, 100.000+ üründe Typesense tabanlı arama ve teknik olmayan çalışanların üretim ERP veritabanına doğal dille erişmesini sağlayan MCP/LLM araçları geliştirdi."
 	},
 	"experience": {
 		"title": "Deneyim",
@@ -12,41 +12,24 @@
 			"schraubenhandel": {
 				"company": "Schraubenhandel Machholz Nchfg. GmbH",
 				"location": "Würzburg, Bavyera, Almanya",
-				"title": "IT Departmanı",
-				"period": { "start": "Ekim 2025", "end": "" },
-				"description": "IT departmanında ağırlıklı olarak yazılım geliştirmeye odaklanarak çalışmakta, Next.js tabanlı çalışan portalı ve yapay zeka destekli e-posta eklentilerinden arama motorlarına, izleme altyapılarına ve özel ajan bazlı yapay zeka sistemlerine kadar geniş bir yelpazede dahili araç ve altyapı geliştirip yönetmektedir.",
+				"title": "Yazılım Geliştirici",
+				"period": {
+					"start": "Ekim 2025",
+					"end": ""
+				},
+				"description": "Bir vida toptancısının IT departmanında yazılım geliştirme: dahili araçlar, mağaza ön yüzleri ve arkalarındaki yapay zeka altyapısı.",
 				"role": {
 					"1": {
-						"project": "Intranet / Çalışan Portalı",
-						"description": "Next.js 16 ve React 19 ile şirket genelinde bir intranet oluşturdu, dahili çalışan portalı olarak hizmet vermektedir. better-auth üzerinden LDAP kimlik doğrulaması entegre ederek çalışanların doğrudan Windows giriş bilgileriyle oturum açabilmesini sağladı. Kendi imzalı HTTPS sertifikası ile yerel olarak barındırılmakta, Microsoft Grup İlkesi aracılığıyla tüm çalışan bilgisayarlarına otomatik olarak dağıtılmakta — aynı ilke ile intranet varsayılan tarayıcı ana sayfası olarak ayarlanarak dahili IP adreslerini hatırlamaya gerek kalmadan sorunsuz erişim sağlanmaktadır."
+						"project": "ERP veritabanı için yapay zeka araç sunucusu",
+						"description": "Üretim ERP veritabanında yalnızca okuma amaçlı SQL çalıştıran, teknik olmayan çalışanların iş sorularını doğal dilde sormasını sağlayan MCP sunucusu."
 					},
 					"2": {
-						"project": "JTL Mağaza Şablonları (Bakım)",
-						"description": "Şirketin üç JTL mağazasının ön yüz kodunu ve şablonlarını aktif olarak yönetmekte, tüm çevrimiçi mağazalarda tutarlı işlevsellik, marka bütünlüğü ve sorunsuz müşteri deneyimi sağlamaktadır."
+						"project": "Ajan araçları",
+						"description": "İstekleri niyet tespiti, vektör arama ve özel alt ajanlar üzerinden yönlendiren OpenAI uyumlu orkestratör."
 					},
 					"3": {
-						"project": "Arama Motoru",
-						"description": "Üç mağazadaki 100.000'den fazla ürün üzerinde, günde binlerce ziyaretçi için 10ms altında arama sonuçları sunan yüksek performanslı bir arama motoru geliştirdi. Typesense ile desteklenmekte ve arama şemasına hakim yerel bir LLM ile geliştirilerek, kullanıcıların belirsiz sorgularını anlayıp somut sonuçlara dönüştürmekte — kullanıcıların spesifik veya teknik terimler kullanmadan aradıklarını bulmasına yardımcı olmaktadır."
-					},
-					"4": {
-						"project": "Özel JTL Mağaza Şablonu",
-						"description": "Tailwind v4 ve Alpine.js kullanarak sıfırdan özel bir JTL Mağaza şablonu geliştirmekte, hazır alternatiflere kıyasla en üst düzey ön yüz performansı ve kod kalitesi sunmak için minimum ek yük ile tasarlanmaktadır."
-					},
-					"5": {
-						"project": "GREYHOUND — Yapay Zeka E-posta Asistanı",
-						"description": "Çalışanların e-posta deneyimini hızlandıran bir GREYHOUND eklentisi geliştirdi: Gelen e-posta içeriklerini önceden tarayıp yapay zeka ile analiz ederek konu rozetleri ve önem derecesi kategorileriyle etiketlemektedir. Bir kenar çubuğu görünümü, alınan e-postaya LLM tabanlı bir yanıtı anında oluşturmakta — çalışan içeriği okumaya başlamadan önce. Çalışanlar ayrıca oluşturulan yanıtı doğal dil yorumlarıyla veya 'İngilizce yanıtla', 'daha resmi', 'daha samimi' gibi hızlı eylemlerle iyileştirebilmektedir."
-					},
-					"6": {
-						"project": "İzleme Altyapısı",
-						"description": "vLLM sunucu performansını ve verimini izlemek için Grafana ve Prometheus örnekleri kurdu. Neredeyse tüm dahili hizmetlerin çalışma süresini ve kullanılabilirliğini takip etmek için bir Kener örneği dağıtarak merkezi bir gözlemlenebilirlik panosu oluşturdu."
-					},
-					"7": {
-						"project": "Üretim Veritabanı için MCP Sunucusu",
-						"description": "Üretim veritabanında yalnızca SELECT sorguları çalıştıran, 12 katmanlı güvenlik kalkanına sahip bir Model Context Protocol sunucusu geliştirdi. Teknik olmayan paydaşların iş sorularını doğal dilde sormalarını ve uygun veritabanı araçlarını dinamik olarak seçen bir LLM aracılığıyla güvenilir, düzenli yanıtlar almalarını sağlamaktadır."
-					},
-					"8": {
-						"project": "Orchestrator — Ajan Bazlı Yapay Zeka Arayüzü",
-						"description": "OpenAI uyumlu uç noktalar sunan ve standart bir LLM gibi davranan, ancak dahili olarak sorguları birden fazla katmandan geçiren yerel bir ajan bazlı arayüz geliştirdi: Gelen sorgular embedding yoluyla ön işlenmekte ve niyet tespiti için vektör veritabanında aranmaktadır. Yüksek güvenilirlikli niyetler hazır yanıtlar ve araçlarla anında yanıtlanır. Daha düşük güvenilirlikli sorgular LLM'ye devredilerek 'order-tracker' veya 'shop-assistant' gibi uygun alt ajanlara yönlendirilmekte, her tür kullanıcı için en uygun yanıt oluşturulmaktadır."
+						"project": "Mağaza yazılımı",
+						"description": "Üç mağaza için JTL şablonları, 100.000+ üründe Typesense araması ve LDAP destekli çalışan portalı."
 					}
 				}
 			},
@@ -54,8 +37,11 @@
 				"company": "Etstur",
 				"location": "İstanbul, Türkiye",
 				"title": "Yazılım Geliştirici",
-				"period": { "start": "Temmuz 2022", "end": "Ağustos 2025" },
-				"description": "Agile ve çapraz fonksiyonlu bir ortamda React ile B2B web uygulamalarını modernleştirdim. Dijital Kontrat projesini tek başıma ön yüz geliştiricisi olarak yönettim, eski B2B uygulamaları modern React teknolojileriyle yeniden inşa ettim ve UI/UX ekip standartlarına dayalı yeni bir B2B UI bileşen kütüphanesinin geliştirilmesine liderlik ettim. Tutarlı UI uygulaması sağladım ve tasarımdan koda dönüşüm sürecini önemli ölçüde hızlandırdım. Ayrıca şirketin DevOps toplantılarında ön yüz temsilcisi olarak görev aldım.",
+				"period": {
+					"start": "Temmuz 2022",
+					"end": "Ağustos 2025"
+				},
+				"description": "Etstur, Türkiye'nin en büyük online seyahat acentelerinden ve tur operatörlerinden biridir. Agile ve çapraz fonksiyonlu bir ekipte B2B web uygulamalarını React ile modernleştirdim: Dijital Kontrat projesini tek ön yüz geliştiricisi olarak yürüttüm, eski B2B uygulamalarını modern bir React yığınıyla yeniden inşa ettim ve UI/UX ekibinin standartlarına dayalı bir B2B bileşen kütüphanesinin geliştirilmesine liderlik ederek tasarımdan koda dönüşüm sürecini önemli ölçüde azalttım. Şirketin DevOps toplantılarında ön yüzü temsil ettim.",
 				"role": {
 					"1": {
 						"project": "UI Kit",
@@ -79,7 +65,10 @@
 				"company": "1Pixel Digital Agency",
 				"location": "İzmir, Türkiye",
 				"title": "Ön Yüz Geliştirme Stajyeri",
-				"period": { "start": "Ekim 2021", "end": "Kasım 2021" },
+				"period": {
+					"start": "Ekim 2021",
+					"end": "Kasım 2021"
+				},
 				"description": "Agile ve Jira ile yönetilen bir iş akışında grafik tasarımlardan duyarlı ve yüksek kaliteli sayfa bölümleri geliştirdim.",
 				"role": {
 					"1": {
@@ -91,7 +80,6 @@
 		}
 	},
 	"education": {
-		"title": "Eğitim & Kurslar",
 		"1": {
 			"institution": "Ege Üniversitesi",
 			"field": "İngiliz Dili ve Edebiyatı Lisans",
@@ -101,9 +89,19 @@
 			"institution": "Academy Peak",
 			"field": "Ömer Çıtak ile Güvenli Yazılım Geliştirme",
 			"period": "16-18 Mart, 2023"
+		},
+		"title": "Eğitim & Kurslar"
+	},
+	"projects": {
+		"title": "Projeler",
+		"zinn": {
+			"title": "Zinn — açık kaynaklı kanban CLI",
+			"description": "TypeScript, MIT, npm: @zinn-dev/cli. SQLite tabanlı çekirdeği, CLI'ı ve görevleri kodlama ajanlarına açan entegrasyonları (OpenCode TUI inspector, Codex) geliştirdi. Bun ve Node üzerinde test edildi; dokümantasyon zinn.sh adresinde."
 		}
 	},
-	"reference": {
-		"title": "Referanslar"
+	"meta": {
+		"title": "Alper Halil — Yazılım Geliştirici (TypeScript, React, Node.js)",
+		"description": "Frontend ve backend'de 4+ yıllık deneyime sahip TypeScript geliştiricisi: React, Next.js, Node.js, dahili araçlar ve LLM/MCP entegrasyonları.",
+		"jobTitle": "Yazılım Geliştirici"
 	}
 }
